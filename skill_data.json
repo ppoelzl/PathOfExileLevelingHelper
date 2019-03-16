@@ -1,0 +1,2342 @@
+{
+    "Abyssal Cry": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "34",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Added Chaos Damage": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Added Cold Damage": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Added Fire Damage": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Added Lightning Damage": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Additional Accuracy": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Ancestral Protector": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Ancestral Warchief": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Anger": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Animate Guardian": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Animate Weapon": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Arc": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Arcane Surge": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Arctic Armour": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Arctic Breath": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Assassin's Mark": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ball Lightning": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Barrage": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Bear Trap": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Blade Flurry": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Blade Vortex": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Bladefall": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Blasphemy": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Blast Rain": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Blight": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Blind": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Blink Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Block Chance Reduction": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Blood Magic": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Blood Rage": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Bloodlust": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Bone Offering": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Brutality": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Burning Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Burning Damage": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Cast On Critical Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Cast on Death": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Cast on Melee Kill": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Cast when Damage Taken": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Cast when Stunned": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Cast while Channelling": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Caustic Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Chain": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Chance to Bleed": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Chance to Flee": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Chance to Ignite": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Charged Dash": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Clarity": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Cleave": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Cluster Traps": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Cold Penetration": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Cold Snap": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Cold to Fire": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Concentrated Effect": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Conductivity": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Contagion": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Controlled Destruction": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Conversion Trap": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Convocation": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Culling Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Curse On Hit": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Cyclone": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Damage on Full Life": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Dark Pact": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Deadly Ailments": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Decay": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Decoy Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Desecrate": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Determination": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Detonate Dead": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Devouring Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Discharge": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Discipline": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Dominating Blow": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Double Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Dual Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Earthquake": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Efficacy": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Elemental Damage with Attacks": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Elemental Focus": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Elemental Hit": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Elemental Proliferation": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Elemental Weakness": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Empower": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Endurance Charge on Melee Stun": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Enduring Cry": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Enfeeble": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Enhance": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Enlighten": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Essence Drain": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ethereal Knives": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Explosive Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Faster Attacks": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Faster Casting": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Faster Projectiles": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Fire Nova Mine": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Fire Penetration": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Fire Trap": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Fireball": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Firestorm": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Flame Dash": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Flame Surge": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Flame Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Flameblast": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Flammability": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Flesh Offering": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Flicker Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Fork": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Fortify": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Freeze Mine": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Freezing Pulse": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frenzy": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frost Blades": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frost Bomb": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frost Wall": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frostbite": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frostbolt": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Generosity": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Glacial Cascade": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Glacial Hammer": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Grace": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Greater Multiple Projectiles": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Ground Slam": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Haste": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Hatred": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Heavy Strike": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Herald of Ash": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Herald of Ice": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Herald of Thunder": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Hypothermia": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Ice Bite": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Ice Crash": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Ice Nova": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ice Shot": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ice Spear": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ice Trap": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ignite Proliferation": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Immolate": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Immortal Call": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "34",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Incinerate": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Increased Area of Effect": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Increased Critical Damage": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Increased Critical Strikes": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Increased Duration": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Infernal Blow": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Innervate": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Iron Grip": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Iron Will": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Item Quantity": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Item Rarity": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Kinetic Blast": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Knockback": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Lacerate": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Leap Slam": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Less Duration": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Lesser Multiple Projectiles": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Lesser Poison": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Life Gain on Hit": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Life Leech": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Lightning Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Lightning Penetration": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Lightning Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Lightning Tendrils": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Lightning Trap": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Lightning Warp": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Magma Orb": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Maim": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Mana Leech": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Melee Physical Damage": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Melee Splash": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Minefield": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Minion Damage": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Minion Life": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Minion Speed": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Minion and Totem Elemental Resistance": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Mirror Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Molten Shell": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Molten Strike": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Multiple Traps": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Multistrike": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Onslaught": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Orb of Storms": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Phase Run": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "34",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Physical Projectile Attack Damage": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Physical to Lightning": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Pierce": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Poacher's Mark": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Point Blank": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Poison": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Power Charge On Critical": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Power Siphon": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Projectile Weakness": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Puncture": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Punishment": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Purity of Elements": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Purity of Fire": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Purity of Ice": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Purity of Lightning": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Rain of Arrows": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Raise Spectre": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Raise Zombie": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Rallying Cry": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Ranged Attack Totem": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Reave": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Reckoning": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Reduced Mana": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Rejuvenation Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Remote Mine": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Righteous Fire": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Riposte": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Ruthless": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "1",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Scorching Ray": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Searing Bond": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Shield Charge": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Shock Nova": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Shockwave Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Shrapnel Shot": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Siege Ballista": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Slower Projectiles": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Smoke Mine": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Spark": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Spectral Throw": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Spell Echo": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Spell Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Spirit Offering": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Split Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Static Strike": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Storm Burst": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Storm Call": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Stun": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
+    "Summon Chaos Golem": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "34",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Summon Flame Golem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "34",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Summon Ice Golem": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "34",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Summon Lightning Golem": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "34",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Summon Raging Spirit": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Summon Skeleton": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Summon Stone Golem": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "34",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Sunder": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Sweep": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Swift Affliction": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Tempest Shield": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Temporal Chains": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Tornado Shot": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Trap": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Trap Cooldown": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Trap and Mine Damage": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Unbound Ailments": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Vengeance": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Vigilant Strike": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Vile Toxins": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Viper Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Vitality": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Void Manipulation": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Vortex": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Vulnerability": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Warlord's Mark": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Whirling Blades": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Wild Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Wither": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Wrath": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    }
+}
