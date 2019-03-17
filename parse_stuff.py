@@ -1,9 +1,12 @@
 # Built-ins
 import json
+import logging
 import operator
 
 # Third-party
 from unstdlib.standard import listify
+
+logger = logging.getLogger(__name__)
 
 CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion"]
 
@@ -59,21 +62,21 @@ def evaluate_skill_gem(gem_name, class_, character, missing):
         return
     elif gem_name == "Vaal Summon Skeletons":
         gem_name = "Summon Skeleton"
-    for quest in quest_data:
-        if gem_name in quest_data[quest][class_]:
-            character.append(
-                (
-                    gem_name,
-                    quest,
-                    int(skill_data[gem_name]["lvl"]),
-                    skill_data[gem_name]["colour"],
-                )
-            )
-            return
     try:
+        for quest in quest_data:
+            if gem_name in quest_data[quest][class_]:
+                character.append(
+                    (
+                        gem_name,
+                        quest,
+                        int(skill_data[gem_name]["lvl"]),
+                        skill_data[gem_name]["colour"],
+                    )
+                )
+                return
         missing.append(gem_name)
-    except:
-        pass
+    except KeyError:
+        logger.debug(f"{gem_name} is missing from skill data.")
 
 
 def find_skill_gems(skill_gems, class_):
