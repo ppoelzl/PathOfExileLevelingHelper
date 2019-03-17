@@ -83,29 +83,27 @@ def find_skill_gems(skill_gems, class_):
     return character
 
 
-def sort_by_level_quest_name(ch):
-    cls = list(ch.keys())[0]
-    cv = list(ch.values())[0]
-    cv.sort(key=operator.itemgetter(2, 1, 0))
-    cv = {cls: cv}
-    return cv
+def sort_by_quest(character_class):
+    class_ = list(character_class.keys())[0]
+    character_values = list(character_class.values())[0]
+    character_values.sort(key=operator.itemgetter(2, 1, 0))
+    character_values = {class_: character_values}
+    return character_values
 
 
 @listify
 def parse(build):
     class_ = build.class_name
-    character = []
-    missing = []
-    for gem in build.skill_gems:
-        evaluate_skill_gem(gem.name, class_, character, missing)
-    other_classes = [c for c in CLASSES if c != class_]
-    # other_classes.remove(class_)
-    # print(missing)
-    dump = {cls: find_skill_gems(missing, cls) for cls in other_classes}
-    character = {class_: character}
-    # print(character, missing)
-    cv = sort_by_level_quest_name(character)
-    yield cv
-    dump = sort_by_values_len(dump)
-    for d in dump:
-        yield sort_by_level_quest_name(d)
+    class_skill_gems = []
+    missing_skill_gems = []
+    for skill_gem in build.skill_gems:
+        evaluate_skill_gem(skill_gem.name, class_, class_skill_gems, missing_skill_gems)
+    class_skill_gems = {class_: class_skill_gems}
+    yield sort_by_quest(class_skill_gems)
+    other_classes = [i for i in CLASSES if i != class_]
+    other_skill_gems = {
+        class_: find_skill_gems(missing_skill_gems, class_) for class_ in other_classes
+    }
+    other_skill_gems = sort_by_values_len(other_skill_gems)
+    for other in other_skill_gems:
+        yield sort_by_quest(other)
