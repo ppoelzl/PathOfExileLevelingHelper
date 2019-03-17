@@ -7,6 +7,11 @@ from unstdlib.standard import listify
 
 CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion"]
 
+with open("quest_data.json", "r") as f:
+    quest_data = json.load(f)
+with open("skill_data.json", "r") as f:
+    skill_data = json.load(f)
+
 
 def sort_by_values_len(dct):
     dict_len = {key: len(value) for key, value in dct.items()}
@@ -16,11 +21,6 @@ def sort_by_values_len(dct):
 
 
 def evaluate_skill_gem(gem_name, class_, character, missing):
-    with open("quest_data.json", "r") as f:
-        quest_data = json.load(f)
-    with open("skill_data.json", "r") as f:
-        skill_data = json.load(f)
-
     # Gems available from Lily
     # TODO: Move gems to quest data
     if gem_name == "Added Chaos Damage":
