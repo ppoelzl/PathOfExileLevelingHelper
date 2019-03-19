@@ -1988,6 +1988,15 @@
         "str": "no",
         "support": "no"
     },
+    "Spectral Shield Throw": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Spectral Throw": {
         "colour": "green",
         "dex": "yes",
@@ -2105,6 +2114,15 @@
         "str": "no",
         "support": "no"
     },
+    "Summon Phantasm on Kill": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Summon Raging Spirit": {
         "colour": "blue",
         "dex": "no",
@@ -2158,6 +2176,15 @@
         "main": "no",
         "str": "no",
         "support": "yes"
+    },
+    "Tectonic Slam": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
     },
     "Tempest Shield": {
         "colour": "blue",
@@ -2329,14 +2356,4 @@
         "main": "yes",
         "str": "no",
         "support": "no"
-    },
-    "Wrath": {
-        "colour": "blue",
-        "dex": "no",
-        "int": "yes",
-        "lvl": "24",
-        "main": "yes",
-        "str": "no",
-        "support": "no"
-    }
-}
+ 
