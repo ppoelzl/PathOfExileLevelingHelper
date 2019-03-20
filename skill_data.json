@@ -422,6 +422,15 @@
         "str": "no",
         "support": "no"
     },
+    "Charged Traps": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Clarity": {
         "colour": "blue",
         "dex": "no",
@@ -827,6 +836,15 @@
         "str": "no",
         "support": "no"
     },
+    "Explosive Trap": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Faster Attacks": {
         "colour": "green",
         "dex": "yes",
@@ -929,6 +947,15 @@
     "Flameblast": {
         "colour": "blue",
         "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Flamethrower Trap": {
+        "colour": "green",
+        "dex": "yes",
         "int": "yes",
         "lvl": "28",
         "main": "yes",
@@ -1484,6 +1511,15 @@
         "str": "no",
         "support": "no"
     },
+    "Lightning Spire Trap": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Magma Orb": {
         "colour": "blue",
         "dex": "no",
@@ -1916,6 +1952,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Seismic Trap": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Shield Charge": {
         "colour": "red",
         "dex": "no",
@@ -1957,6 +2002,15 @@
         "dex": "yes",
         "int": "no",
         "lvl": "4",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Siphoning Trap": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "10",
         "main": "yes",
         "str": "no",
         "support": "no"
