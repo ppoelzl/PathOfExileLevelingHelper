@@ -494,6 +494,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Concentrated Path": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Conductivity": {
         "colour": "blue",
         "dex": "no",
@@ -1160,6 +1169,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Herald of Agony": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Herald of Ash": {
         "colour": "red",
         "dex": "no",
@@ -1176,6 +1194,15 @@
         "lvl": "16",
         "main": "yes",
         "str": "no",
+        "support": "no"
+    },
+    "Herald of Purity": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
         "support": "no"
     },
     "Herald of Thunder": {
@@ -1943,6 +1970,15 @@
         "str": "no",
         "support": "no"
     },
+    "Scourge Arrow": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Searing Bond": {
         "colour": "red",
         "dex": "no",
@@ -2023,6 +2059,15 @@
         "main": "no",
         "str": "no",
         "support": "yes"
+    },
+    "Smite": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
     },
     "Smoke Mine": {
         "colour": "green",
@@ -2150,6 +2195,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Summon Holy Relic": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Summon Ice Golem": {
         "colour": "green",
         "dex": "yes",
@@ -2263,6 +2317,15 @@
         "dex": "yes",
         "int": "no",
         "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Toxic Rain": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
         "main": "yes",
         "str": "no",
         "support": "no"
@@ -2410,5 +2473,14 @@
         "main": "yes",
         "str": "no",
         "support": "no"
+    },
+    "Withering Touch": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
     }
 }
