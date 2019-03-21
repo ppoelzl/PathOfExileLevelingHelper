@@ -134,6 +134,15 @@
         "str": "no",
         "support": "no"
     },
+    "Armageddon Brand": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Assassin's Mark": {
         "colour": "blue",
         "dex": "yes",
@@ -278,6 +287,15 @@
         "str": "yes",
         "support": "yes"
     },
+    "Bonechill": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Bone Offering": {
         "colour": "blue",
         "dex": "no",
@@ -285,6 +303,15 @@
         "lvl": "12",
         "main": "yes",
         "str": "no",
+        "support": "no"
+    },
+    "Brand Recall": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
         "support": "no"
     },
     "Brutality": {
@@ -690,6 +717,15 @@
         "lvl": "1",
         "main": "yes",
         "str": "no",
+        "support": "no"
+    },
+    "Dread Banner": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
         "support": "no"
     },
     "Dual Strike": {
@@ -1430,6 +1466,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Lancing Steel": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Leap Slam": {
         "colour": "red",
         "dex": "no",
@@ -1663,6 +1708,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Multiple Totems": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
     },
     "Multiple Traps": {
         "colour": "green",
@@ -1997,6 +2051,15 @@
         "str": "no",
         "support": "no"
     },
+    "Shattering Steel": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Shield Charge": {
         "colour": "red",
         "dex": "no",
@@ -2148,6 +2211,15 @@
         "lvl": "12",
         "main": "yes",
         "str": "yes",
+        "support": "no"
+    },
+    "Storm Brand": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
         "support": "no"
     },
     "Storm Burst": {
@@ -2438,6 +2510,15 @@
         "str": "no",
         "support": "no"
     },
+    "War Banner": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Warlord's Mark": {
         "colour": "red",
         "dex": "no",
@@ -2463,6 +2544,15 @@
         "lvl": "28",
         "main": "yes",
         "str": "yes",
+        "support": "no"
+    },
+    "Winter Orb": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
         "support": "no"
     },
     "Wither": {
