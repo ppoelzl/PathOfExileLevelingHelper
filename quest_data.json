@@ -10,6 +10,7 @@
             "Frostbolt",
             "Lightning Tendrils",
             "Magma Orb",
+			"Purifying Flame",
             "Raise Zombie",
             "Spark"
         ],
@@ -28,6 +29,7 @@
             "Lesser Poison",
             "Lightning Tendrils",
             "Magma Orb",
+			"Purifying Flame",
             "Spark",
             "Spectral Throw",
             "Split Arrow",
@@ -92,6 +94,7 @@
             "Lightning Tendrils",
             "Magma Orb",
             "Molten Strike",
+			"Purifying Flame",
             "Raise Zombie",
             "Smite",
             "Spark",
@@ -114,6 +117,7 @@
             "Magma Orb",
             "Molten Strike",
             "Onslaught",
+			"Purifying Flame",
             "Raise Zombie",
             "Shrapnel Shot",
             "Smite",
@@ -767,7 +771,8 @@
             "Power Charge On Critical",
             "Righteous Fire",
             "Tempest Shield",
-            "Trap and Mine Damage"
+            "Trap and Mine Damage",
+			"Wave of Conviction"
         ],
         "Shadow": [
             "Arctic Armour",
@@ -795,7 +800,8 @@
             "Point Blank",
             "Power Charge On Critical",
             "Tempest Shield",
-            "Trap and Mine Damage"
+            "Trap and Mine Damage",
+			"Wave of Conviction"
         ],
         "Ranger": [
             "Arctic Armour",
@@ -899,7 +905,8 @@
             "Physical to Lightning",
             "Righteous Fire",
             "Tempest Shield",
-            "Trap and Mine Damage"
+            "Trap and Mine Damage",
+			"Wave of Conviction"
         ],
         "Scion": [
             "Arctic Armour",
@@ -938,12 +945,14 @@
             "Righteous Fire",
             "Tempest Shield",
             "Trap and Mine Damage",
-            "Vicious Projectiles"
+            "Vicious Projectiles",
+			"Wave of Conviction"
         ]
     },
     "Lost in Love": {
         "Witch": [
             "Assassin's Mark",
+			"Bane",
             "Conductivity",
             "Convocation",
             "Despair",
@@ -953,13 +962,16 @@
             "Flammability",
             "Frostbite",
             "Hatred",
+			"Malevolence",
             "Punishment",
             "Purity of Elements",
             "Purity of Lightning",
-            "Wrath"
+            "Wrath",
+			"Zealotry"
         ],
         "Shadow": [
             "Assassin's Mark",
+			"Bane",
             "Conductivity",
             "Despair",
             "Discipline",
@@ -970,13 +982,15 @@
             "Grace",
             "Haste",
             "Hatred",
+			"Malevolence",
             "Poacher's Mark",
             "Projectile Weakness",
             "Purity of Elements",
             "Purity of Ice",
             "Purity of Lightning",
             "Temporal Chains",
-            "Wrath"
+            "Wrath",
+			"Zealotry"
         ],
         "Ranger": [
             "Anger",
@@ -1030,6 +1044,7 @@
         ],
         "Templar": [
             "Anger",
+			"Bane",
             "Conductivity",
             "Convocation",
             "Despair",
@@ -1040,6 +1055,7 @@
             "Enfeeble",
             "Flammability",
             "Frostbite",
+			"Malevolence",
             "Punishment",
             "Purity of Elements",
             "Purity of Fire",
@@ -1047,10 +1063,12 @@
             "Vengeance",
             "Vitality",
             "Warlord's Mark",
-            "Wrath"
+            "Wrath",
+			"Zealotry"
         ],
         "Scion": [
             "Anger",
+			"Bane",
             "Conductivity",
             "Convocation",
             "Despair",
@@ -1062,6 +1080,7 @@
             "Frostbite",
             "Haste",
             "Hatred",
+			"Malevolence",
             "Punishment",
             "Purity of Elements",
             "Purity of Fire",
@@ -1069,7 +1088,8 @@
             "Purity of Lightning",
             "Temporal Chains",
             "Vulnerability",
-            "Wrath"
+            "Wrath",
+			"Zealotry"
         ]
     },
     "Sever the Right Hand": {
@@ -1082,6 +1102,7 @@
             "Cremation",
             "Dark Pact",
             "Discharge",
+			"Divine Ire",
             "Flameblast",
             "Flamethrower Trap",
             "Glacial Cascade",
@@ -1092,6 +1113,7 @@
             "Seismic Trap",
             "Shock Nova",
             "Shockwave Totem",
+			"Soulrend",
             "Storm Burst",
             "Vortex",
             "Winter Orb"
@@ -1106,6 +1128,7 @@
             "Cremation",
             "Dark Pact",
             "Discharge",
+			"Divine Ire",
             "Flameblast",
             "Flamethrower Trap",
             "Glacial Cascade",
@@ -1116,6 +1139,7 @@
             "Scourge Arrow",
             "Seismic Trap",
             "Shock Nova",
+			"Soulrend",
             "Storm Burst",
             "Tornado Shot",
             "Vortex",
@@ -1182,6 +1206,7 @@
             "Cremation",
             "Cyclone",
             "Discharge",
+			"Divine Ire",
             "Dominating Blow",
             "Earthquake",
             "Flameblast",
@@ -1191,6 +1216,7 @@
             "Raise Spectre",
             "Shock Nova",
             "Shockwave Totem",
+			"Soulrend",
             "Storm Burst",
             "Tectonic Slam",
             "Vortex",
@@ -1210,6 +1236,7 @@
             "Cyclone",
             "Dark Pact",
             "Discharge",
+			"Divine Ire",
             "Dominating Blow",
             "Earthquake",
             "Flameblast",
@@ -1223,6 +1250,7 @@
             "Scourge Arrow",
             "Seismic Trap",
             "Shock Nova",
+			"Soulrend",
             "Storm Burst",
             "Tectonic Slam",
             "Tornado Shot",
@@ -1238,6 +1266,7 @@
             "Charged Traps",
             "Cold Penetration",
             "Efficacy",
+			"Energy Leech",
             "Faster Projectiles",
             "Fire Penetration",
             "Fork",
@@ -1245,6 +1274,7 @@
             "Hypothermia",
             "Ice Bite",
             "Innervate",
+			"Intensify",
             "Item Rarity",
             "Lightning Penetration",
             "Mana Leech",
@@ -1256,6 +1286,7 @@
             "Charged Traps",
             "Cold Penetration",
             "Efficacy",
+			"Energy Leech",
             "Faster Projectiles",
             "Fire Penetration",
             "Fork",
@@ -1263,6 +1294,7 @@
             "Hypothermia",
             "Ice Bite",
             "Innervate",
+			"Intensify",
             "Item Rarity",
             "Life Leech",
             "Lightning Penetration",
@@ -1273,8 +1305,10 @@
         ],
         "Ranger": [
             "Advanced Traps",
+			"Bane",
             "Blood Magic",
             "Cold Penetration",
+			"Divine Ire",
             "Faster Projectiles",
             "Fork",
             "Fortify",
@@ -1282,13 +1316,20 @@
             "Ice Bite",
             "Innervate",
             "Life Leech",
+			"Malevolence",
             "Mana Leech",
             "Poison",
+			"Purifying Flame",
             "Slower Projectiles",
-            "Swift Affliction"
+			"Soulrend",
+            "Swift Affliction",
+			"Wave of Conviction",
+			"Zealotry"
         ],
         "Duelist": [
+		    "Bane",
             "Blood Magic",
+			"Divine Ire",
             "Fork",
             "Fortify",
             "Hypothermia",
@@ -1296,26 +1337,39 @@
             "Increased Duration",
             "Less Duration",
             "Life Leech",
+			"Malevolence",
             "Mana Leech",
+			"Purifying Flame",
             "Reduced Mana",
-            "Slower Projectiles"
+            "Slower Projectiles",
+			"Soulrend",
+			"Wave of Conviction",
+			"Zealotry"
         ],
         "Marauder": [
+		    "Bane",
             "Blood Magic",
             "Burning Damage",
+			"Divine Ire",
             "Fire Penetration",
             "Fortify",
             "Generosity",
             "Increased Duration",
             "Less Duration",
             "Life Leech",
-            "Reduced Mana"
+			"Malevolence",
+			"Purifying Flame",
+            "Reduced Mana",
+			"Soulrend",
+			"Wave of Conviction",
+			"Zealotry"
         ],
         "Templar": [
             "Blood Magic",
             "Burning Damage",
             "Cold Penetration",
             "Efficacy",
+			"Energy Leech",
             "Fire Penetration",
             "Fortify",
             "Generosity",
@@ -1323,6 +1377,7 @@
             "Ice Bite",
             "Increased Duration",
             "Innervate",
+			"Intensify",
             "Item Rarity",
             "Less Duration",
             "Life Leech",
@@ -1337,6 +1392,7 @@
             "Charged Traps",
             "Cold Penetration",
             "Efficacy",
+			"Energy Leech",
             "Faster Projectiles",
             "Fire Penetration",
             "Fork",
@@ -1345,6 +1401,7 @@
             "Hypothermia",
             "Ice Bite",
             "Innervate",
+			"Intensify",
             "Item Rarity",
             "Less Duration",
             "Life Leech",
@@ -1442,7 +1499,8 @@
             "Immolate",
             "Multiple Totems",
             "Multistrike",
-            "Spell Echo"
+            "Spell Echo",
+			"Unleash"
         ],
         "Shadow": [
             "Bonechill",
@@ -1461,6 +1519,7 @@
             "Multiple Totems",
             "Multistrike",
             "Spell Echo",
+			"Unleash",
             "Vile Toxins",
             "Withering Touch"
         ],
@@ -1532,7 +1591,8 @@
             "Increased Area of Effect",
             "Multiple Totems",
             "Multistrike",
-            "Spell Echo"
+            "Spell Echo",
+			"Unleash"
         ],
         "Scion": [
             "Bonechill",
@@ -1554,6 +1614,7 @@
             "Multiple Totems",
             "Multistrike",
             "Spell Echo",
+			"Unleash",
             "Vile Toxins",
             "Withering Touch"
         ]
