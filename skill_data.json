@@ -161,6 +161,15 @@
         "str": "no",
         "support": "no"
     },
+    "Bane": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Barrage": {
         "colour": "green",
         "dex": "yes",
@@ -701,6 +710,15 @@
         "str": "no",
         "support": "no"
     },
+    "Divine Ire": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Dominating Blow": {
         "colour": "red",
         "dex": "no",
@@ -826,6 +844,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Energy Leech": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
     },
     "Enfeeble": {
         "colour": "blue",
@@ -1403,6 +1430,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Intensify": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Iron Grip": {
         "colour": "red",
         "dex": "no",
@@ -1609,6 +1645,15 @@
         "main": "no",
         "str": "yes",
         "support": "yes"
+    },
+    "Malevolence": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
     },
     "Mana Leech": {
         "colour": "green",
@@ -1858,6 +1903,15 @@
         "dex": "no",
         "int": "yes",
         "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Purifying Flame": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "1",
         "main": "yes",
         "str": "yes",
         "support": "no"
@@ -2137,6 +2191,15 @@
         "dex": "yes",
         "int": "yes",
         "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Soulrend": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
         "main": "yes",
         "str": "no",
         "support": "no"
@@ -2438,6 +2501,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Unleash": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "38",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Vengeance": {
         "colour": "red",
         "dex": "no",
@@ -2528,6 +2600,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Wave of Conviction": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Whirling Blades": {
         "colour": "green",
         "dex": "yes",
@@ -2572,5 +2653,14 @@
         "main": "no",
         "str": "no",
         "support": "yes"
+    },
+    "Zealotry": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
     }
 }
