@@ -683,6 +683,15 @@
         "str": "no",
         "support": "no"
     },
+    "Detonate Mines": {
+        "colour": "white",
+        "dex": "no",
+        "int": "no",
+        "lvl": "8",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Devouring Totem": {
         "colour": "red",
         "dex": "no",
