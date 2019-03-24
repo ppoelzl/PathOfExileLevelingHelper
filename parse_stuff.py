@@ -24,16 +24,8 @@ def sort_by_values_len(dct):
 
 
 def evaluate_skill_gem(gem_name, class_, character, missing):
-    # Gems available from Lily
-    # TODO: Move gems to quest data
-    if gem_name == "Added Chaos Damage":
-        character.append((gem_name, "Fallen from Grace", 31, "blue"))
-        return
-    elif gem_name == "Detonate Mines":
-        character.append((gem_name, "Fallen from Grace", 8, "white"))
-        return
     # Drop-only skill gems
-    elif gem_name == "Empower":
+    if gem_name == "Empower":
         character.append((gem_name, "Drop-only", 1, "red"))
         return
     elif gem_name == "Enhance":
