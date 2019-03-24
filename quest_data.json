@@ -1618,5 +1618,35 @@
             "Vile Toxins",
             "Withering Touch"
         ]
+    },
+    "Fallen from Grace": {
+        "Witch": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ],
+        "Shadow": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ],
+        "Ranger": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ],
+        "Duelist": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ],
+        "Marauder": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ],
+        "Templar": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ],
+        "Scion": [
+            "Added Chaos Damage",
+            "Detonate Mines"
+        ]
     }
 }
