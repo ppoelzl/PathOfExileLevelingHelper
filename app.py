@@ -21,6 +21,7 @@ def index():
 @app.route("/", methods=["POST"])
 def my_form_post():
     text = request.form["text"]
+    text.strip() #remove leading and trailing whitespaces 
     # TODO: Add error handling
     if text.startswith("https://pastebin.com/"):
         build = pobapi.from_url(text)
