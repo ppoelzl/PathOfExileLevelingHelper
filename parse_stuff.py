@@ -37,6 +37,18 @@ def evaluate_skill_gem(gem_name, class_, character, missing):
     elif gem_name == "Portal":
         character.append((gem_name, "Drop-only", 10, "white"))
         return
+    # Vaal Skills
+    if gem_name.startswith("Vaal"):
+        vaal_gem_name = gem_name
+        gem_name = find_corresponding_non_vaal_skill_gem(gem_name)
+        character.append(
+            (
+                vaal_gem_name,
+                "Drop-only",
+                int(skill_data[gem_name]["lvl"]),
+                skill_data[gem_name]["colour"],
+            )
+        )
     # TODO: Vendor recipe skill gems
     elif gem_name == "Mirror Arrow":
         "Blink Arrow + 1 Orb of Alteration"
@@ -45,15 +57,6 @@ def evaluate_skill_gem(gem_name, class_, character, missing):
         "Puncture + any dexterity shield with 20% quality"
         pass
     # TODO: Why are the names of source skills empty?
-    # elif gem_name == "":
-    #     return
-    # TODO: Vaal Skills
-    # Portal corruption -> Vaal Breach
-    elif gem_name == "Vaal Breach":
-        character.append((gem_name, "Drop-only", 10, "white"))
-        return
-    elif gem_name == "Vaal Summon Skeletons":
-        gem_name = "Summon Skeleton"
     try:
         for quest in quest_data:
             if gem_name in quest_data[quest][class_]:
@@ -69,6 +72,22 @@ def evaluate_skill_gem(gem_name, class_, character, missing):
         missing.append(gem_name)
     except KeyError:
         logger.debug(f"{gem_name} is missing from skill data.")
+
+
+def find_corresponding_non_vaal_skill_gem(skill_gem_name):
+    if skill_gem_name == "Vaal Breach":
+        name = "Portal"
+    elif skill_gem_name == "Vaal Impurity of Ice":
+        name = "Purity of Ice"
+    elif skill_gem_name == "Vaal Impurity of Fire":
+        name = "Purity of Fire"
+    elif skill_gem_name == "Vaal Impurity of Lightning":
+        name = "Purity of Lightning"
+    elif skill_gem_name == "Vaal Summon Skeletons":
+        name = "Summon Skeletons"
+    else:
+        _, _, name = skill_gem_name.partition("Vaal ")
+    return name
 
 
 def find_skill_gems(skill_gems, class_):
