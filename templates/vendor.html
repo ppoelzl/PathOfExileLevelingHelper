@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Vendor Rewards</title>
-</head>
-<body>
+{%  extends "base.html" %}
+
+{%  block content %}
 <h2>{{ character_class }}</h2>
 {{ character_table }}
 <h2>{{ one_class }}</h2>
@@ -19,5 +15,4 @@
 {{ five_table }}
 <h2>{{ six_class }}</h2>
 {{ six_table }}
-</body>
-</html>
+{%  endblock content %}

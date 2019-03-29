@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Vendor Rewards</title>
-</head>
+{%  extends "base.html" %}
 
+{%  block content %}
 <h1>Find out which skill gems in your build are available for your and the other classes.</h1>
 
 <form method="POST">
@@ -12,3 +8,4 @@
     <input type="text" name="text" id="text">
     <input type="submit" value="Calculate Skill Gems">
 </form>
+{%  endblock content %}
