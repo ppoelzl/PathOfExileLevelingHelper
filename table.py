@@ -18,3 +18,9 @@ class Item:
     quest_name: str
     gem_level: int
     gem_colour: str
+
+
+def generate_table(store):
+    for cls in store:
+        for cc, gems in cls.items():
+            yield (cc, ItemTable([Item(*g) for g in gems], border=True))

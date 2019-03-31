@@ -3,7 +3,7 @@ import logging
 
 # Project
 from parse_stuff import parse
-from table import Item, ItemTable
+from table import generate_table
 
 # Third-party
 import pobapi
@@ -19,7 +19,7 @@ def index():
 
 
 @app.route("/", methods=["POST"])
-def my_form_post():
+def import_code_form_post():
     # Remove excessive whitespace from user input
     text = request.form["text"].strip()
     # TODO: Add error handling
@@ -29,13 +29,7 @@ def my_form_post():
         build = pobapi.from_import_code(text)
 
     store = parse(build)
-
-    def generate_table():
-        for cls in store:
-            for cc, gems in cls.items():
-                yield (cc, ItemTable([Item(*g) for g in gems], border=True))
-
-    tables = generate_table()
+    tables = generate_table(store)
 
     return render_template(
         "vendor.html",
