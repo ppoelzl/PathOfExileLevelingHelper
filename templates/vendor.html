@@ -2,7 +2,7 @@
 
 {%  block content %}
 {% for table in tables %}
-    <h2>{{ table[0] }}</h2>
-    {{ table[1] }}
+    <h2>{{ table.character_class }}</h2>
+    {{ table.skill_gems }}
 {% endfor %}
 {%  endblock content %}

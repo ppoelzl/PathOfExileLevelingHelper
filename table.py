@@ -6,8 +6,8 @@ from flask_table import Table, Col
 
 
 class ItemTable(Table):
-    gem_name = Col('Gem')
-    quest_name = Col('Quest')
+    gem_name = Col("Gem")
+    quest_name = Col("Quest")
     gem_level = Col("Level")
     gem_colour = Col("Colour")
 
@@ -21,6 +21,13 @@ class Item:
 
 
 def generate_table(store):
-    for cls in store:
-        for cc, gems in cls.items():
-            yield (cc, ItemTable([Item(*g) for g in gems], border=True))
+    for class_ in store:
+        for character_class, skill_gems in class_.items():
+            yield (
+                {
+                    "character_class": character_class,
+                    "skill_gems": ItemTable(
+                        [Item(*skill_gem) for skill_gem in skill_gems], border=True
+                    ),
+                }
+            )

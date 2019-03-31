@@ -31,10 +31,7 @@ def import_code_form_post():
     store = parse(build)
     tables = generate_table(store)
 
-    return render_template(
-        "vendor.html",
-        tables=tables
-    )
+    return render_template("vendor.html", tables=tables)
 
 
 if __name__ == "__main__":
