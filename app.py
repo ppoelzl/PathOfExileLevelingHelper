@@ -2,6 +2,7 @@
 import logging
 
 # Project
+from config import Config
 from parse_stuff import parse
 from table import generate_table
 
@@ -11,6 +12,7 @@ from flask import Flask, request, render_template
 
 logger = logging.getLogger(__name__)
 app = Flask(__name__)
+app.config.from_object(Config)
 
 
 @app.route("/")
