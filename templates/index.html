@@ -2,10 +2,12 @@
 
 {%  block content %}
 <h1>Find out which skill gems in your build are available for your and the other classes.</h1>
-
-<form method="POST">
-    <label for="text">Input Path of Building Import Code or Pastebin.com link:</label>
-    <input type="text" name="text" id="text">
-    <input type="submit" value="Calculate Skill Gems">
+<form action="" method="post" novalidate>
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.import_code.label }}<br>
+        {{ form.import_code(size=32) }}
+    </p>
+    <p>{{ form.submit() }}</p>
 </form>
 {%  endblock content %}

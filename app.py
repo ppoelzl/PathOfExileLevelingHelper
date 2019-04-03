@@ -3,6 +3,7 @@ import logging
 
 # Project
 from config import Config
+from forms import ImportForm
 from parse_stuff import parse
 from table import generate_table
 
@@ -17,7 +18,8 @@ app.config.from_object(Config)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    form = ImportForm()
+    return render_template("index.html", title="help", form=form)
 
 
 @app.route("/", methods=["POST"])
