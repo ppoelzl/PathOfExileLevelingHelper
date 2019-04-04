@@ -9,27 +9,25 @@ from table import generate_table
 
 # Third-party
 import pobapi
-from flask import Flask, url_for, redirect, render_template, session
+from flask import Flask, render_template
 
 logger = logging.getLogger(__name__)
 app = Flask(__name__)
 app.config.from_object(Config)
 
 
-@app.route("/index", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def index():
     form = ImportForm()
     if form.validate_on_submit():
-        # Remove excessive whitespace from user input
-        session["text"] = form.import_code.data.strip()
-        return redirect(url_for("vendor"))
-    return render_template("index.html", title="help", form=form)
+        return vendor(form)
+    return render_template("index.html", form=form)
 
 
-@app.route("/vendor")
-def vendor():
+def vendor(form):
+    # Remove excessive whitespace from user input
+    text = form.import_code.data.strip()
     # TODO: Add error handling
-    text = session["text"]
     if text.startswith("https://pastebin.com/"):
         build = pobapi.from_url(text)
     else:
