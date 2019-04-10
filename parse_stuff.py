@@ -37,6 +37,27 @@ def evaluate_skill_gem(gem_name, class_, character, missing):
     elif gem_name == "Portal":
         character.append((gem_name, "Drop-only", 10, "white"))
         return
+    # Vendor recipe skill gems
+    elif gem_name == "Mirror Arrow":
+        character.append(
+            (
+                gem_name,
+                "Vendor Blink Arrow + 1 Orb of Alteration",
+                int(skill_data[gem_name]["lvl"]),
+                skill_data[gem_name]["colour"],
+            )
+        )
+        return
+    elif gem_name == "Block Chance Reduction":
+        character.append(
+            (
+                gem_name,
+                "Vendor Puncture + any dexterity based shield with 20% quality",
+                int(skill_data[gem_name]["lvl"]),
+                skill_data[gem_name]["colour"],
+            )
+        )
+        return
     # Vaal Skills
     if gem_name.startswith("Vaal"):
         vaal_gem_name = gem_name
@@ -49,13 +70,6 @@ def evaluate_skill_gem(gem_name, class_, character, missing):
                 skill_data[gem_name]["colour"],
             )
         )
-    # TODO: Vendor recipe skill gems
-    elif gem_name == "Mirror Arrow":
-        "Blink Arrow + 1 Orb of Alteration"
-        pass
-    elif gem_name == "Block Chance Reduction":
-        "Puncture + any dexterity shield with 20% quality"
-        pass
     # TODO: Why are the names of source skills empty?
     try:
         for quest in quest_data:
