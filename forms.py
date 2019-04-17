@@ -7,7 +7,8 @@ from wtforms.validators import InputRequired
 
 class ImportForm(FlaskForm):
     import_code = StringField(
-        "Input Path of Building Import Code or Pastebin.com link:",
+        "",
+        description="Input Path of Building Import Code or Pastebin.com link:",
         validators=[ImportValidator(), InputRequired()],
     )
     submit = SubmitField("Calculate skill gems")

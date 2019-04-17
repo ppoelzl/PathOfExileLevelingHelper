@@ -6,7 +6,7 @@
     {{ form.hidden_tag() }}
     <p>
         {{ form.import_code.label }}<br>
-        {{ form.import_code(size=32) }}<br>
+        {{ form.import_code(placeholder=form.import_code.description, size=form.import_code.description|length) }}<br>
         {% for error in form.import_code.errors %}
             <span style="color: red;">[{{ error }}]</span>
         {% endfor %}
