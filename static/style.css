@@ -1,0 +1,19 @@
+body {
+    background-color: #171717;
+}
+h1 {
+    background-color: #570b03;
+    color: #f2c462;
+}
+hr {
+    color: #4d3422;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 3px solid #4d3422;
+}
+th, tr, h2, p {
+    color: #a38d6d;
+}
