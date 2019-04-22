@@ -10,9 +10,14 @@ hr {
 }
 table {
     border-collapse: collapse;
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 table, th, td {
     border: 3px solid #4d3422;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 th, tr, h2, p {
     color: #a38d6d;
