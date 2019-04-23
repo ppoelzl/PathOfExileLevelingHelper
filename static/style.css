@@ -5,6 +5,10 @@ h1 {
     background-color: #570b03;
     color: #f2c462;
 }
+h2 {
+    color: #a38d6d;
+    text-align: center;
+}
 hr {
     color: #4d3422;
 }
@@ -19,6 +23,6 @@ table, th, td {
     margin-left: 33%;
     margin-right: 33%;
 }
-th, tr, h2, p {
+th, tr, p {
     color: #a38d6d;
 }
