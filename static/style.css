@@ -2,7 +2,6 @@ body {
     background-color: #171717;
 }
 h1 {
-    background-color: #570b03;
     color: #f2c462;
 }
 h2 {
@@ -13,12 +12,14 @@ hr {
     color: #4d3422;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #171717;
 }
 li {
-    display: inline;
+    float: left;
 }
 li a {
   display: block;
@@ -26,6 +27,12 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
+li a.active {
+    background-color: #570b03;
 }
 table {
     border-collapse: collapse;
