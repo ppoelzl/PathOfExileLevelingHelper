@@ -12,6 +12,21 @@ h2 {
 hr {
     color: #4d3422;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+    display: inline;
+}
+li a {
+  display: block;
+  color: #f2c462;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 table {
     border-collapse: collapse;
     width: 33%;
