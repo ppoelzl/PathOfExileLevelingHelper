@@ -45,6 +45,10 @@ table, th, td {
     margin-left: 33%;
     margin-right: 33%;
 }
-th, tr, p {
+th, tr {
+    color: #a38d6d;
+    text-align: center;
+}
+p {
     color: #a38d6d;
 }
