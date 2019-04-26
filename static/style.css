@@ -3,6 +3,7 @@ body {
 }
 h1 {
     color: #f2c462;
+    text-align: center;
 }
 h2 {
     color: #a38d6d;
@@ -33,6 +34,9 @@ li a:hover:not(.active) {
 }
 li a.active {
     background-color: #570b03;
+}
+input {
+    width: 100%;
 }
 table {
     border-collapse: collapse;
