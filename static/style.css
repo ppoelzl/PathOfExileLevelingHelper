@@ -38,6 +38,23 @@ li a.active {
 input {
     width: 100%;
 }
+input[type=text] {
+    background-color: #4d3422;
+    border: none;
+    color: #a38d6d;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #570b03;
+    border: none;
+    color: #f2c462;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
 table {
     border-collapse: collapse;
     width: 33%;
@@ -55,4 +72,5 @@ th, tr {
 }
 p {
     color: #a38d6d;
+    margin: 0;
 }

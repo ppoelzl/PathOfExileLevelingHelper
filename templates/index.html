@@ -5,12 +5,16 @@
 <form action="" method="post" novalidate>
     {{ form.hidden_tag() }}
     <p>
-        {{ form.import_code.label }}<br>
-        {{ form.import_code(placeholder=form.import_code.description, size=form.import_code.description|length) }}<br>
+        {{ form.import_code.label }}
+        <br>
+        {{ form.import_code(placeholder=form.import_code.description) }}
+        <br>
         {% for error in form.import_code.errors %}
             <span style="color: red;">[{{ error }}]</span>
         {% endfor %}
     </p>
-    <p>{{ form.submit() }}</p>
+    <p>
+        {{ form.submit() }}
+    </p>
 </form>
 {%  endblock content %}
