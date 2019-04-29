@@ -11,4 +11,4 @@ class ImportForm(FlaskForm):
         description="Input Path of Building Import Code or Pastebin.com link:",
         validators=[ImportValidator(), InputRequired()],
     )
-    submit = SubmitField("Calculate skill gems")
+    submit = SubmitField("Calculate skill gems »")
