@@ -75,3 +75,23 @@ p {
     color: #a38d6d;
     margin: 0;
 }
+span {
+    background: #f2c462;
+    padding: 10px;
+    border-radius: 0;
+    color: #171717;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 1px #171717;
+    margin-top: 10px;
+}
+span:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f2c462;
+    position: absolute;
+    top: -10px;
+}
