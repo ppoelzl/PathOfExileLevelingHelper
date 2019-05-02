@@ -1,5 +1,6 @@
 body {
     background-color: #171717;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 h1 {
     color: #f2c462;
@@ -37,6 +38,7 @@ li a.active {
 }
 input {
     width: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
     font-size: 16px;
     padding: 16px 32px;
 }
