@@ -20,18 +20,21 @@ app.config.from_object(Config)
 def index():
     form = ImportForm()
     if form.validate_on_submit():
-        return vendor(form)
+        # Remove excessive whitespace from user input
+        import_code = form.import_code.data.strip()
+        return vendor(import_code)
     return render_template("index.html", form=form)
 
 
-def vendor(form):
-    # Remove excessive whitespace from user input
-    text = form.import_code.data.strip()
-    # TODO: Add error handling
-    if text.startswith("https://pastebin.com/"):
-        build = pobapi.from_url(text)
-    else:
-        build = pobapi.from_import_code(text)
+def vendor(import_code):
+    # TODO: Proper error handling
+    try:
+        if import_code.startswith("https://pastebin.com/"):
+            build = pobapi.from_url(import_code)
+        else:
+            build = pobapi.from_import_code(import_code)
+    except ValueError:
+        return render_template("index.html", form=ImportForm())
 
     store = parse(build)
     tables = generate_table(store)
