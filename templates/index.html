@@ -10,7 +10,7 @@
         {{ form.import_code(placeholder=form.import_code.description) }}
         <br>
         {% for error in form.import_code.errors %}
-            <span>[{{ error }}]</span>
+            <span>{{ error }}</span>
         {% endfor %}
     </p>
     <p>

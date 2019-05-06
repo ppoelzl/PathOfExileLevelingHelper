@@ -34,7 +34,9 @@ def vendor(import_code):
         else:
             build = pobapi.from_import_code(import_code)
     except ValueError:
-        return render_template("index.html", form=ImportForm())
+        form = ImportForm()
+        form["import_code"].errors = ["Not a valid pastebin.com URL or import code."]
+        return render_template("index.html", form=form)
 
     store = parse(build)
     tables = generate_table(store)
