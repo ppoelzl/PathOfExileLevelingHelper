@@ -17,9 +17,9 @@ with open("skill_data.json", "r") as f:
 
 
 def sort_by_values_len(dct):
-    dict_len = {key: len(value) for key, value in dct.items()}
-    sorted_key_list = sorted(dict_len.items(), key=operator.itemgetter(1), reverse=True)
-    sorted_dict = [{item[0]: dct[item[0]]} for item in sorted_key_list]
+    tuple_list = [(key, len(value)) for key, value in dct.items()]
+    sorted_tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=True)
+    sorted_dict = [{item[0]: dct[item[0]]} for item in sorted_tuple_list]
     return sorted_dict
 
 
