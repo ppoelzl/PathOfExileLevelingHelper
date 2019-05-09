@@ -16,13 +16,6 @@ with open("skill_data.json", "r") as f:
     skill_data = json.load(f)
 
 
-def sort_by_values_len(dct):
-    tuple_list = [(key, len(value)) for key, value in dct.items()]
-    sorted_tuple_list = sorted(tuple_list, key=operator.itemgetter(1), reverse=True)
-    sorted_dict = [{item[0]: dct[item[0]]} for item in sorted_tuple_list]
-    return sorted_dict
-
-
 def evaluate_skill_gem(gem_name, class_, character, missing):
     # Drop-only skill gems
     if gem_name == "Empower":
@@ -119,6 +112,12 @@ def sort_by_quest(character_class):
     return character_values
 
 
+def sort_by_values_len(tpl):
+    tpl.sort(key=lambda x: len(x[1]))
+    sorted_dicts = [{k: v} for k, v in tpl]
+    return sorted_dicts
+
+
 @listify
 def parse(build):
     class_ = build.class_name
@@ -129,9 +128,10 @@ def parse(build):
     class_skill_gems = {class_: class_skill_gems}
     yield sort_by_quest(class_skill_gems)
     other_classes = [i for i in CLASSES if i != class_]
-    other_skill_gems = {
-        class_: find_skill_gems(missing_skill_gems, class_) for class_ in other_classes
-    }
+    other_skill_gems = [
+        (class_, find_skill_gems(missing_skill_gems, class_))
+        for class_ in other_classes
+    ]
     other_skill_gems = sort_by_values_len(other_skill_gems)
     for other in other_skill_gems:
         yield sort_by_quest(other)
