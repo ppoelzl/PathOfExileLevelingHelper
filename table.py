@@ -21,14 +21,13 @@ class Item:
 
 
 def generate_table(store):
-    for class_ in store:
-        for character_class, skill_gems in class_.items():
-            if skill_gems:
-                yield (
-                    {
-                        "character_class": character_class,
-                        "skill_gems": ItemTable(
-                            [Item(*skill_gem) for skill_gem in skill_gems], border=True
-                        ),
-                    }
-                )
+    for character_class, skill_gems in store:
+        if skill_gems:
+            yield (
+                {
+                    "character_class": character_class,
+                    "skill_gems": ItemTable(
+                        [Item(*skill_gem) for skill_gem in skill_gems], border=True
+                    ),
+                }
+            )

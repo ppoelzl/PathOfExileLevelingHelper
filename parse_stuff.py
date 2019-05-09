@@ -98,24 +98,16 @@ def find_corresponding_non_vaal_skill_gem(skill_gem_name):
 
 
 def find_skill_gems(skill_gems, class_):
-    character = []
+    class_skill_gems = []
     for name in skill_gems:
-        evaluate_skill_gem(name, class_, character, [])
-    return character
+        evaluate_skill_gem(name, class_, class_skill_gems, [])
+    return class_, class_skill_gems
 
 
-def sort_by_quest(character_class):
-    class_ = list(character_class.keys())[0]
-    character_values = list(character_class.values())[0]
+def sort_by_quest(tpl):
+    class_, character_values = tpl
     character_values.sort(key=operator.itemgetter(2, 1, 0))
-    character_values = {class_: character_values}
-    return character_values
-
-
-def sort_by_values_len(tpl):
-    tpl.sort(key=lambda x: len(x[1]))
-    sorted_dicts = [{k: v} for k, v in tpl]
-    return sorted_dicts
+    return class_, character_values
 
 
 @listify
@@ -125,13 +117,14 @@ def parse(build):
     missing_skill_gems = []
     for skill_gem in build.skill_gems:
         evaluate_skill_gem(skill_gem.name, class_, class_skill_gems, missing_skill_gems)
-    class_skill_gems = {class_: class_skill_gems}
+    class_skill_gems = (class_, class_skill_gems)
     yield sort_by_quest(class_skill_gems)
     other_classes = [i for i in CLASSES if i != class_]
-    other_skill_gems = [
-        (class_, find_skill_gems(missing_skill_gems, class_))
+    other_class_skill_gems = [
+        find_skill_gems(missing_skill_gems, class_)
         for class_ in other_classes
     ]
-    other_skill_gems = sort_by_values_len(other_skill_gems)
-    for other in other_skill_gems:
+    # Sort by number of skill gems available to class
+    other_class_skill_gems.sort(key=lambda x: len(x[1]))
+    for other in other_class_skill_gems:
         yield sort_by_quest(other)
