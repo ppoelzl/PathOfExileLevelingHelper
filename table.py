@@ -27,7 +27,7 @@ def generate_table(store):
                 {
                     "character_class": character_class,
                     "skill_gems": ItemTable(
-                        [Item(*skill_gem) for skill_gem in skill_gems], border=True
+                        [Item(*skill_gem) for skill_gem in skill_gems]
                     ),
                 }
             )
