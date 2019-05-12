@@ -1,4 +1,5 @@
 # Built-ins
+import json
 import logging
 
 # Project
@@ -14,6 +15,11 @@ from flask import Flask, render_template
 logger = logging.getLogger(__name__)
 app = Flask(__name__)
 app.config.from_object(Config)
+
+with open("quest_data.json", "r") as f:
+    quest_data = json.load(f)
+with open("skill_data.json", "r") as f:
+    skill_data = json.load(f)
 
 
 @app.route("/", methods=["GET", "POST"])

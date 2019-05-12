@@ -1,5 +1,4 @@
 # Built-ins
-import json
 import logging
 import operator
 
@@ -9,11 +8,6 @@ from unstdlib.standard import listify
 logger = logging.getLogger(__name__)
 
 CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion"]
-
-with open("quest_data.json", "r") as f:
-    quest_data = json.load(f)
-with open("skill_data.json", "r") as f:
-    skill_data = json.load(f)
 
 
 def evaluate_skill_gem(gem_name, class_, character, missing):
