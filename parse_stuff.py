@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion"]
 
 
-def evaluate_skill_gem(gem_name, class_, character, missing):
+def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_data):
     # Drop-only skill gems
     if gem_name == "Empower":
         character.append((gem_name, "Drop-only", 1, "red"))
@@ -91,10 +91,10 @@ def find_corresponding_non_vaal_skill_gem(skill_gem_name):
     return name
 
 
-def find_skill_gems(skill_gems, class_):
+def find_skill_gems(skill_gems, class_, quest_data, skill_data):
     class_skill_gems = []
     for name in skill_gems:
-        evaluate_skill_gem(name, class_, class_skill_gems, [])
+        evaluate_skill_gem(name, class_, class_skill_gems, [], quest_data, skill_data)
     return class_, class_skill_gems
 
 
@@ -105,18 +105,24 @@ def sort_by_quest(tpl):
 
 
 @listify
-def parse(build):
+def parse(build, quest_data, skill_data):
     class_ = build.class_name
     class_skill_gems = []
     missing_skill_gems = []
     for skill_gem in build.skill_gems:
-        evaluate_skill_gem(skill_gem.name, class_, class_skill_gems, missing_skill_gems)
+        evaluate_skill_gem(
+            skill_gem.name,
+            class_,
+            class_skill_gems,
+            missing_skill_gems,
+            quest_data,
+            skill_data,
+        )
     class_skill_gems = (class_, class_skill_gems)
     yield sort_by_quest(class_skill_gems)
     other_classes = [i for i in CLASSES if i != class_]
     other_class_skill_gems = [
-        find_skill_gems(missing_skill_gems, class_)
-        for class_ in other_classes
+        find_skill_gems(missing_skill_gems, class_) for class_ in other_classes
     ]
     # Sort by number of skill gems available to class
     other_class_skill_gems.sort(key=lambda x: len(x[1]))

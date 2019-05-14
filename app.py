@@ -49,7 +49,7 @@ def vendor(import_code):
         form["import_code"].errors = ["Not a valid pastebin.com URL or import code."]
         return render_template("index.html", form=form)
 
-    store = parse(build)
+    store = parse(build, quest_data, skill_data)
     tables = generate_table(store)
 
     return render_template("vendor.html", tables=tables)
