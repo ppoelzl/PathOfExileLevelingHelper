@@ -38,7 +38,7 @@ def about():
 
 
 def vendor(import_code):
-    # TODO: Proper error handling
+    # Error handling on bad url or b64
     try:
         if import_code.startswith("https://pastebin.com/"):
             build = pobapi.from_url(import_code)

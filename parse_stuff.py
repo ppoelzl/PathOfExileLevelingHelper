@@ -77,18 +77,18 @@ def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_d
 
 def find_corresponding_non_vaal_skill_gem(skill_gem_name):
     if skill_gem_name == "Vaal Breach":
-        name = "Portal"
+        return "Portal"
     elif skill_gem_name == "Vaal Impurity of Ice":
-        name = "Purity of Ice"
+        return "Purity of Ice"
     elif skill_gem_name == "Vaal Impurity of Fire":
-        name = "Purity of Fire"
+        return "Purity of Fire"
     elif skill_gem_name == "Vaal Impurity of Lightning":
-        name = "Purity of Lightning"
+        return "Purity of Lightning"
     elif skill_gem_name == "Vaal Summon Skeletons":
-        name = "Summon Skeletons"
+        return "Summon Skeletons"
     else:
         _, _, name = skill_gem_name.partition("Vaal ")
-    return name
+        return name
 
 
 def find_skill_gems(skill_gems, class_, quest_data, skill_data):
@@ -122,7 +122,8 @@ def parse(build, quest_data, skill_data):
     yield sort_by_quest(class_skill_gems)
     other_classes = [i for i in CLASSES if i != class_]
     other_class_skill_gems = [
-        find_skill_gems(missing_skill_gems, class_) for class_ in other_classes
+        find_skill_gems(missing_skill_gems, class_, quest_data, skill_data)
+        for class_ in other_classes
     ]
     # Sort by number of skill gems available to class
     other_class_skill_gems.sort(key=lambda x: len(x[1]))
