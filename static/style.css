@@ -13,17 +13,15 @@ h2 {
 hr {
     color: #4d3422;
 }
-ul {
+.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #171717;
 }
-li {
-    float: left;
-}
 li a {
+    float: left;
     display: block;
     color: #f2c462;
     text-align: center;
