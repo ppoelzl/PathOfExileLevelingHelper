@@ -47,14 +47,13 @@ def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_d
         return
     # Vaal Skills
     if gem_name.startswith("Vaal"):
-        vaal_gem_name = gem_name
-        gem_name = find_corresponding_non_vaal_skill_gem(gem_name)
+        base_gem_name = find_corresponding_non_vaal_skill_gem(gem_name)
         character.append(
             (
-                vaal_gem_name,
+                gem_name,
                 "Drop-only",
-                int(skill_data[gem_name]["lvl"]),
-                skill_data[gem_name]["colour"],
+                int(skill_data[base_gem_name]["lvl"]),
+                skill_data[base_gem_name]["colour"],
             )
         )
     # TODO: Why are the names of source skills empty?
@@ -76,19 +75,14 @@ def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_d
 
 
 def find_corresponding_non_vaal_skill_gem(skill_gem_name):
-    if skill_gem_name == "Vaal Breach":
-        return "Portal"
-    elif skill_gem_name == "Vaal Impurity of Ice":
-        return "Purity of Ice"
-    elif skill_gem_name == "Vaal Impurity of Fire":
-        return "Purity of Fire"
-    elif skill_gem_name == "Vaal Impurity of Lightning":
-        return "Purity of Lightning"
-    elif skill_gem_name == "Vaal Summon Skeletons":
-        return "Summon Skeletons"
-    else:
-        _, _, name = skill_gem_name.partition("Vaal ")
-        return name
+    dct = {
+        "Vaal Breach": "Portal",
+        "Vaal Impurity of Ice": "Purity of Ice",
+        "Vaal Impurity of Fire": "Purity of Fire",
+        "Vaal Impurity of Lightning": "Purity of Lightning",
+        "Vaal Summon Skeletons": "Summon Skeletons",
+    }
+    return dct.get(skill_gem_name, skill_gem_name.partition("Vaal ")[2])
 
 
 def find_skill_gems(skill_gems, class_, quest_data, skill_data):
