@@ -1648,5 +1648,49 @@
             "Added Chaos Damage",
             "Detonate Mines"
         ]
+    },
+    "Drop-only": {
+        "Witch": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ],
+        "Shadow": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ],
+        "Ranger": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ],
+        "Duelist": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ],
+        "Marauder": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ],
+        "Templar": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ],
+        "Scion": [
+            "Empower",
+            "Enhance",
+            "Enlighten",
+            "Portal"
+        ]
     }
 }
