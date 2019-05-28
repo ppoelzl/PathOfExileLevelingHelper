@@ -12,17 +12,7 @@ CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion
 
 def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_data):
     # Vendor recipe skill gems
-    if gem_name == "Mirror Arrow":
-        character.append(
-            (
-                gem_name,
-                "Vendor Blink Arrow + 1 Orb of Alteration",
-                int(skill_data[gem_name]["lvl"]),
-                skill_data[gem_name]["colour"],
-            )
-        )
-        return
-    elif gem_name == "Block Chance Reduction":
+    if gem_name == "Block Chance Reduction":
         character.append(
             (
                 gem_name,
@@ -31,10 +21,20 @@ def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_d
                 skill_data[gem_name]["colour"],
             )
         )
-        return
-    # Vaal Skills
-    if gem_name.startswith("Vaal"):
-        base_gem_name = find_corresponding_non_vaal_skill_gem(gem_name)
+        gem_name = "Puncture"  # Rename to allow the base gem to be added as well
+    elif gem_name == "Mirror Arrow":
+        character.append(
+            (
+                gem_name,
+                "Vendor Blink Arrow + 1 Orb of Alteration",
+                int(skill_data[gem_name]["lvl"]),
+                skill_data[gem_name]["colour"],
+            )
+        )
+        gem_name = "Blink Arrow"  # Rename to allow the base gem to be added as well
+    # Vaal skill gems
+    elif gem_name.startswith("Vaal"):
+        base_gem_name = find_corresponding_non_vaal_skill_gem_name(gem_name)
         character.append(
             (
                 gem_name,
@@ -62,7 +62,7 @@ def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_d
         logger.debug(f"{gem_name} is missing from skill data.")
 
 
-def find_corresponding_non_vaal_skill_gem(skill_gem_name):
+def find_corresponding_non_vaal_skill_gem_name(skill_gem_name):
     dct = {
         "Vaal Breach": "Portal",
         "Vaal Impurity of Ice": "Purity of Ice",
@@ -75,8 +75,10 @@ def find_corresponding_non_vaal_skill_gem(skill_gem_name):
 
 def find_skill_gems(skill_gems, class_, quest_data, skill_data):
     class_skill_gems = []
-    for name in skill_gems:
-        evaluate_skill_gem(name, class_, class_skill_gems, [], quest_data, skill_data)
+    for gem_name in skill_gems:
+        evaluate_skill_gem(
+            gem_name, class_, class_skill_gems, [], quest_data, skill_data
+        )
     return class_, class_skill_gems
 
 
