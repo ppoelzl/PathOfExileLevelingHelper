@@ -11,21 +11,8 @@ CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion
 
 
 def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_data):
-    # Drop-only skill gems
-    if gem_name == "Empower":
-        character.append((gem_name, "Drop-only", 1, "red"))
-        return
-    elif gem_name == "Enhance":
-        character.append((gem_name, "Drop-only", 1, "green"))
-        return
-    elif gem_name == "Enlighten":
-        character.append((gem_name, "Drop-only", 1, "blue"))
-        return
-    elif gem_name == "Portal":
-        character.append((gem_name, "Drop-only", 10, "white"))
-        return
     # Vendor recipe skill gems
-    elif gem_name == "Mirror Arrow":
+    if gem_name == "Mirror Arrow":
         character.append(
             (
                 gem_name,
@@ -56,6 +43,7 @@ def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_d
                 skill_data[base_gem_name]["colour"],
             )
         )
+        gem_name = base_gem_name  # Rename to allow the base gem to be added as well
     # TODO: Why are the names of source skills empty?
     try:
         for quest in quest_data:
