@@ -10,56 +10,59 @@ logger = logging.getLogger(__name__)
 CLASSES = ["Witch", "Shadow", "Ranger", "Duelist", "Marauder", "Templar", "Scion"]
 
 
-def evaluate_skill_gem(gem_name, class_, character, missing, quest_data, skill_data):
-    # Vendor recipe skill gems
-    if gem_name == "Block Chance Reduction":
-        character.append(
-            (
-                gem_name,
-                "Vendor Puncture + any dexterity based shield with 20% quality",
-                int(skill_data[gem_name]["lvl"]),
-                skill_data[gem_name]["colour"],
-            )
-        )
-        gem_name = "Puncture"  # Rename to allow the base gem to be added as well
-    elif gem_name == "Mirror Arrow":
-        character.append(
-            (
-                gem_name,
-                "Vendor Blink Arrow + 1 Orb of Alteration",
-                int(skill_data[gem_name]["lvl"]),
-                skill_data[gem_name]["colour"],
-            )
-        )
-        gem_name = "Blink Arrow"  # Rename to allow the base gem to be added as well
-    # Vaal skill gems
-    elif gem_name.startswith("Vaal"):
-        base_gem_name = find_corresponding_non_vaal_skill_gem_name(gem_name)
-        character.append(
-            (
-                gem_name,
-                "Drop-only",
-                int(skill_data[base_gem_name]["lvl"]),
-                skill_data[base_gem_name]["colour"],
-            )
-        )
-        gem_name = base_gem_name  # Rename to allow the base gem to be added as well
-    # TODO: Why are the names of source skills empty?
-    try:
-        for quest in quest_data:
-            if gem_name in quest_data[quest][class_]:
-                character.append(
-                    (
-                        gem_name,
-                        quest,
-                        int(skill_data[gem_name]["lvl"]),
-                        skill_data[gem_name]["colour"],
-                    )
+@listify
+def evaluate_skill_gems(gem_list, class_, missing, quest_data, skill_data):
+    for gem_name in gem_list:
+        # Vendor recipe skill gems
+        if gem_name == "Block Chance Reduction":
+            yield (
+                (
+                    gem_name,
+                    "Vendor Puncture + any dexterity based shield with 20% quality",
+                    int(skill_data[gem_name]["lvl"]),
+                    skill_data[gem_name]["colour"],
                 )
-                return
-        missing.append(gem_name)
-    except KeyError:
-        logger.debug(f"{gem_name} is missing from skill data.")
+            )
+            gem_name = "Puncture"  # Rename to allow the base gem to be added as well
+        elif gem_name == "Mirror Arrow":
+            yield (
+                (
+                    gem_name,
+                    "Vendor Blink Arrow + 1 Orb of Alteration",
+                    int(skill_data[gem_name]["lvl"]),
+                    skill_data[gem_name]["colour"],
+                )
+            )
+            gem_name = "Blink Arrow"  # Rename to allow the base gem to be added as well
+        # Vaal skill gems
+        elif gem_name.startswith("Vaal"):
+            base_gem_name = find_corresponding_non_vaal_skill_gem_name(gem_name)
+            yield (
+                (
+                    gem_name,
+                    "Drop-only",
+                    int(skill_data[base_gem_name]["lvl"]),
+                    skill_data[base_gem_name]["colour"],
+                )
+            )
+            gem_name = base_gem_name  # Rename to allow the base gem to be added as well
+
+        # TODO: Why are the names of source skills empty?
+        try:
+            for quest in quest_data:
+                if gem_name in quest_data[quest][class_]:
+                    yield (
+                        (
+                            gem_name,
+                            quest,
+                            int(skill_data[gem_name]["lvl"]),
+                            skill_data[gem_name]["colour"],
+                        )
+                    )
+                    continue
+            missing.append(gem_name)
+        except KeyError:
+            logger.debug(f"{gem_name} is missing from skill data.")
 
 
 def find_corresponding_non_vaal_skill_gem_name(skill_gem_name):
@@ -75,11 +78,10 @@ def find_corresponding_non_vaal_skill_gem_name(skill_gem_name):
 
 def find_skill_gems(skill_gems, class_, quest_data, skill_data):
     class_skill_gems = []
-    for gem_name in skill_gems:
-        evaluate_skill_gem(
-            gem_name, class_, class_skill_gems, [], quest_data, skill_data
-        )
-    return class_, class_skill_gems
+    gem_list = evaluate_skill_gems(
+        skill_gems, class_, class_skill_gems, [], quest_data, skill_data
+    )
+    return class_, gem_list
 
 
 def sort_by_quest(tpl):
@@ -93,16 +95,15 @@ def parse(build, quest_data, skill_data):
     class_ = build.class_name
     class_skill_gems = []
     missing_skill_gems = []
-    for skill_gem in build.skill_gems:
-        evaluate_skill_gem(
-            skill_gem.name,
-            class_,
-            class_skill_gems,
-            missing_skill_gems,
-            quest_data,
-            skill_data,
-        )
-    class_skill_gems = (class_, class_skill_gems)
+    gem_list = evaluate_skill_gems(
+        build.skill_gems,
+        class_,
+        class_skill_gems,
+        missing_skill_gems,
+        quest_data,
+        skill_data,
+    )
+    class_skill_gems = (class_, gem_list)
     yield sort_by_quest(class_skill_gems)
     other_classes = [i for i in CLASSES if i != class_]
     other_class_skill_gems = [
