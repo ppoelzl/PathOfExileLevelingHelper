@@ -77,9 +77,8 @@ def find_corresponding_non_vaal_skill_gem_name(skill_gem_name):
 
 
 def find_skill_gems(skill_gems, class_, quest_data, skill_data):
-    class_skill_gems = []
     gem_list = evaluate_skill_gems(
-        skill_gems, class_, class_skill_gems, [], quest_data, skill_data
+        skill_gems, class_, [], quest_data, skill_data
     )
     return class_, gem_list
 
@@ -93,12 +92,10 @@ def sort_by_quest(tpl):
 @listify
 def parse(build, quest_data, skill_data):
     class_ = build.class_name
-    class_skill_gems = []
     missing_skill_gems = []
     gem_list = evaluate_skill_gems(
         build.skill_gems,
         class_,
-        class_skill_gems,
         missing_skill_gems,
         quest_data,
         skill_data,
