@@ -59,6 +59,7 @@ def evaluate_skill_gems(gem_list, class_, missing, quest_data, skill_data):
                             skill_data[gem_name]["colour"],
                         )
                     )
+                    # TODO: Regression: Duplicate skill gem entries
                     continue
             missing.append(gem_name)
         except KeyError:
@@ -76,13 +77,6 @@ def find_corresponding_non_vaal_skill_gem_name(skill_gem_name):
     return dct.get(skill_gem_name, skill_gem_name.partition("Vaal ")[2])
 
 
-def find_skill_gems(skill_gems, class_, quest_data, skill_data):
-    gem_list = evaluate_skill_gems(
-        skill_gems, class_, [], quest_data, skill_data
-    )
-    return class_, gem_list
-
-
 def sort_by_quest(tpl):
     class_, character_values = tpl
     character_values.sort(key=operator.itemgetter(2, 1, 0))
@@ -94,7 +88,7 @@ def parse(build, quest_data, skill_data):
     class_ = build.class_name
     missing_skill_gems = []
     gem_list = evaluate_skill_gems(
-        build.skill_gems,
+        (skill_gem.name for skill_gem in build.skill_gems),
         class_,
         missing_skill_gems,
         quest_data,
@@ -104,7 +98,10 @@ def parse(build, quest_data, skill_data):
     yield sort_by_quest(class_skill_gems)
     other_classes = [i for i in CLASSES if i != class_]
     other_class_skill_gems = [
-        find_skill_gems(missing_skill_gems, class_, quest_data, skill_data)
+        (
+            class_,
+            evaluate_skill_gems(missing_skill_gems, class_, [], quest_data, skill_data),
+        )
         for class_ in other_classes
     ]
     # Sort by number of skill gems available to class
