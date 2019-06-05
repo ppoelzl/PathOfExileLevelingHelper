@@ -44,6 +44,7 @@
             "Explosive Trap",
             "Frost Blades",
             "Ice Shot",
+            "Perforate",
             "Pierce",
             "Shrapnel Shot",
             "Spectral Throw",
@@ -63,6 +64,7 @@
             "Heavy Strike",
             "Ice Shot",
             "Molten Strike",
+            "Perforate",
             "Shrapnel Shot",
             "Spectral Throw",
             "Split Arrow",
@@ -79,6 +81,7 @@
             "Heavy Strike",
             "Molten Strike",
             "Ruthless",
+            "Perforate",
             "Smite",
             "Spectral Throw"
         ],
@@ -117,6 +120,7 @@
             "Magma Orb",
             "Molten Strike",
             "Onslaught",
+            "Perforate",
 			"Purifying Flame",
             "Raise Zombie",
             "Shrapnel Shot",
@@ -220,6 +224,7 @@
         ],
         "Ranger": [
             "Bear Trap",
+            "Blood and Sand",
             "Conversion Trap",
             "Decoy Totem",
             "Detonate Dead",
@@ -232,6 +237,7 @@
         ],
         "Duelist": [
             "Ancestral Protector",
+            "Blood and Sand",
             "Decoy Totem",
             "Devouring Totem",
             "Frost Wall",
@@ -247,6 +253,7 @@
         "Marauder": [
             "Ancestral Protector",
             "Bear Trap",
+            "Blood and Sand",
             "Decoy Totem",
             "Devouring Totem",
             "Flame Totem",
@@ -278,6 +285,7 @@
             "Ancestral Protector",
             "Animate Weapon",
             "Bear Trap",
+            "Blood and Sand",
             "Contagion",
             "Conversion Trap",
             "Decoy Totem",
