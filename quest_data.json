@@ -80,8 +80,8 @@
             "Ground Slam",
             "Heavy Strike",
             "Molten Strike",
-            "Ruthless",
             "Perforate",
+            "Ruthless",
             "Smite",
             "Spectral Throw"
         ],
@@ -347,6 +347,7 @@
             "Melee Splash",
             "Minefield",
             "Multiple Traps",
+            "Precision",
             "Ranged Attack Totem",
             "Remote Mine",
             "Siphoning Trap",
@@ -374,6 +375,7 @@
             "Maim",
             "Melee Splash",
             "Multiple Traps",
+            "Precision",
             "Rallying Cry",
             "Ranged Attack Totem",
             "Remote Mine",
@@ -397,6 +399,7 @@
             "Life Gain on Hit",
             "Maim",
             "Melee Splash",
+            "Precision",
             "Rallying Cry",
             "Ranged Attack Totem",
             "Shield Charge",
@@ -417,6 +420,7 @@
             "Life Gain on Hit",
             "Maim",
             "Melee Splash",
+            "Precision",
             "Rallying Cry",
             "Shield Charge",
             "Smoke Mine",
@@ -437,6 +441,7 @@
             "Lightning Warp",
             "Melee Splash",
             "Minion Damage",
+            "Precision",
             "Rallying Cry",
             "Remote Mine",
             "Shield Charge",
@@ -551,6 +556,7 @@
         ],
         "Duelist": [
             "Barrage",
+            "Chain Hook",
             "Elemental Hit",
             "Infernal Blow",
             "Lacerate",
@@ -566,6 +572,7 @@
             "Toxic Rain"
         ],
         "Marauder": [
+            "Chain Hook",
             "Firestorm",
             "Infernal Blow",
             "Lacerate",
@@ -605,6 +612,7 @@
             "Barrage",
             "Blade Vortex",
             "Bone Offering",
+            "Chain Hook",
             "Elemental Hit",
             "Essence Drain",
             "Fire Nova Mine",
@@ -632,6 +640,29 @@
             "Volatile Dead"
         ]
     },
+    "Intruders in Black": {
+        "Witch":[
+
+        ],
+        "Shadow": [
+
+        ],
+        "Ranger": [
+
+        ],
+        "Duelist": [
+            "Flesh and Stone"
+        ],
+        "Marauder": [
+            "Flesh and Stone"
+        ],
+        "Templar": [
+
+        ],
+        "Scion": [
+            "Flesh and Stone"
+        ]
+    },
     "Sharp and Cruel": {
         "Witch": [
             "Cold to Fire",
@@ -650,6 +681,7 @@
         ],
         "Shadow": [
             "Bloodlust",
+            "Close Combat",
             "Cold to Fire",
             "Concentrated Effect",
             "Controlled Destruction",
@@ -668,6 +700,7 @@
         ],
         "Ranger": [
             "Bloodlust",
+            "Close Combat",
             "Culling Strike",
             "Deadly Ailments",
             "Elemental Damage with Attacks",
@@ -683,6 +716,7 @@
         ],
         "Duelist": [
             "Bloodlust",
+            "Close Combat",
             "Culling Strike",
             "Damage on Full Life",
             "Deadly Ailments",
@@ -694,10 +728,12 @@
             "Melee Physical Damage",
             "Physical to Lightning",
             "Point Blank",
+            "Shockwave",
             "Vicious Projectiles"
         ],
         "Marauder": [
             "Bloodlust",
+            "Close Combat",
             "Culling Strike",
             "Damage on Full Life",
             "Elemental Damage with Attacks",
@@ -706,10 +742,12 @@
             "Melee Physical Damage",
             "Iron Grip",
             "Iron Will",
-            "Physical to Lightning"
+            "Physical to Lightning",
+            "Shockwave"
         ],
         "Templar": [
             "Bloodlust",
+            "Close Combat",
             "Cold to Fire",
             "Concentrated Effect",
             "Controlled Destruction",
@@ -727,10 +765,12 @@
             "Minion Life",
             "Minion Speed",
             "Physical to Lightning",
+            "Shockwave",
             "Trap and Mine Damage"
         ],
         "Scion": [
             "Bloodlust",
+            "Close Combat",
             "Cold to Fire",
             "Concentrated Effect",
             "Controlled Destruction",
@@ -751,6 +791,7 @@
             "Physical to Lightning",
             "Point Blank",
             "Power Charge On Critical",
+            "Shockwave",
             "Trap and Mine Damage",
             "Vicious Projectiles"
         ]
@@ -971,6 +1012,7 @@
             "Frostbite",
             "Hatred",
 			"Malevolence",
+            "Pride",
             "Punishment",
             "Purity of Elements",
             "Purity of Lightning",
@@ -992,6 +1034,7 @@
             "Hatred",
 			"Malevolence",
             "Poacher's Mark",
+            "Pride",
             "Projectile Weakness",
             "Purity of Elements",
             "Purity of Ice",
@@ -1008,6 +1051,7 @@
             "Grace",
             "Haste",
             "Hatred",
+            "Pride",
             "Poacher's Mark",
             "Projectile Weakness",
             "Purity of Elements",
@@ -1024,6 +1068,7 @@
             "Grace",
             "Haste",
             "Hatred",
+            "Pride",
             "Poacher's Mark",
             "Projectile Weakness",
             "Punishment",
@@ -1042,6 +1087,7 @@
             "Dread Banner",
             "Flammability",
             "Hatred",
+            "Pride",
             "Punishment",
             "Purity of Elements",
             "Purity of Fire",
@@ -1064,6 +1110,7 @@
             "Flammability",
             "Frostbite",
 			"Malevolence",
+            "Pride",
             "Punishment",
             "Purity of Elements",
             "Purity of Fire",
@@ -1089,6 +1136,7 @@
             "Haste",
             "Hatred",
 			"Malevolence",
+            "Pride",
             "Punishment",
             "Purity of Elements",
             "Purity of Fire",
@@ -1174,6 +1222,7 @@
             "Ancestral Warchief",
             "Animate Guardian",
             "Blade Flurry",
+            "Blade Storm",
             "Blast Rain",
             "Charged Dash",
             "Cyclone",
@@ -1190,6 +1239,7 @@
         "Marauder": [
             "Ancestral Warchief",
             "Animate Guardian",
+            "Blade Storm",
             "Charged Dash",
             "Consecrated Path",
             "Cyclone",
@@ -1237,6 +1287,7 @@
             "Armageddon Brand",
             "Blade Flurry",
             "Bladefall",
+            "Blade Storm",
             "Blast Rain",
             "Charged Dash",
             "Consecrated Path",
@@ -1301,6 +1352,7 @@
             "Fortify",
             "Hypothermia",
             "Ice Bite",
+            "Impale",
             "Innervate",
 			"Intensify",
             "Item Rarity",
@@ -1322,11 +1374,13 @@
             "Fortify",
             "Hypothermia",
             "Ice Bite",
+            "Impale",
             "Innervate",
             "Life Leech",
 			"Malevolence",
             "Mana Leech",
             "Poison",
+            "Pulverise",
 			"Purifying Flame",
             "Slower Projectiles",
 			"Soulrend",
@@ -1342,11 +1396,13 @@
             "Fortify",
             "Hypothermia",
             "Ice Bite",
+            "Impale",
             "Increased Duration",
             "Less Duration",
             "Life Leech",
 			"Malevolence",
             "Mana Leech",
+            "Pulverise",
 			"Purifying Flame",
             "Reduced Mana",
             "Slower Projectiles",
@@ -1362,10 +1418,12 @@
             "Fire Penetration",
             "Fortify",
             "Generosity",
+            "Impale",
             "Increased Duration",
             "Less Duration",
             "Life Leech",
 			"Malevolence",
+            "Pulverise",
 			"Purifying Flame",
             "Reduced Mana",
 			"Soulrend",
@@ -1391,6 +1449,7 @@
             "Life Leech",
             "Lightning Penetration",
             "Minion and Totem Elemental Resistance",
+            "Pulverise",
             "Reduced Mana",
             "Swift Affliction"
         ],
@@ -1408,6 +1467,7 @@
             "Generosity",
             "Hypothermia",
             "Ice Bite",
+            "Impale",
             "Innervate",
 			"Intensify",
             "Item Rarity",
@@ -1417,6 +1477,7 @@
             "Mana Leech",
             "Minion and Totem Elemental Resistance",
             "Poison",
+            "Pulverise",
             "Reduced Mana",
             "Slower Projectiles",
             "Swift Affliction"
@@ -1451,6 +1512,7 @@
         ],
         "Duelist": [
             "Abyssal Cry",
+            "Berserk",
             "Immortal Call",
             "Phase Run",
             "Summon Chaos Golem",
@@ -1461,6 +1523,7 @@
         ],
         "Marauder": [
             "Abyssal Cry",
+            "Berserk",
             "Immortal Call",
             "Summon Chaos Golem",
             "Summon Flame Golem",
@@ -1479,6 +1542,7 @@
         ],
         "Scion": [
             "Abyssal Cry",
+            "Berserk",
             "Immortal Call",
             "Phase Run",
             "Summon Chaos Golem",
