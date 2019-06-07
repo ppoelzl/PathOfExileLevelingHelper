@@ -188,6 +188,15 @@
         "str": "no",
         "support": "no"
     },
+    "Berserk": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "34",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Blade Flurry": {
         "colour": "green",
         "dex": "yes",
@@ -195,6 +204,15 @@
         "lvl": "28",
         "main": "yes",
         "str": "no",
+        "support": "no"
+    },
+    "Blade Storm": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "28",
+        "main": "yes",
+        "str": "yes",
         "support": "no"
     },
     "Blade Vortex": {
@@ -268,6 +286,15 @@
         "main": "no",
         "str": "no",
         "support": "yes"
+    },
+    "Blood and Sand": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "34",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
     },
     "Blood Magic": {
         "colour": "red",
@@ -422,6 +449,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Chain Hook": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Chance to Bleed": {
         "colour": "red",
         "dex": "no",
@@ -484,6 +520,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Close Combat": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
     },
     "Cluster Traps": {
         "colour": "green",
@@ -625,6 +670,15 @@
         "dex": "no",
         "int": "yes",
         "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Dash": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "4",
         "main": "yes",
         "str": "no",
         "support": "no"
@@ -1052,6 +1106,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Flesh and Stone": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "16",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Flesh Offering": {
         "colour": "blue",
         "dex": "no",
@@ -1120,6 +1183,15 @@
         "dex": "yes",
         "int": "no",
         "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Frost Blink": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
         "main": "yes",
         "str": "no",
         "support": "no"
@@ -1375,6 +1447,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Impale": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
     },
     "Incinerate": {
         "colour": "blue",
@@ -1808,6 +1889,15 @@
         "str": "no",
         "support": "no"
     },
+    "Perforate": {
+        "colour": "red",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "1",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Phase Run": {
         "colour": "green",
         "dex": "yes",
@@ -1898,6 +1988,24 @@
         "str": "no",
         "support": "no"
     },
+    "Precision": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "10",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Pride": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Projectile Weakness": {
         "colour": "green",
         "dex": "yes",
@@ -1906,6 +2014,15 @@
         "main": "yes",
         "str": "no",
         "support": "no"
+    },
+    "Pulverise": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
     },
     "Puncture": {
         "colour": "green",
@@ -1969,6 +2086,15 @@
         "main": "yes",
         "str": "no",
         "support": "no"
+    },
+    "Rage": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
     },
     "Rain of Arrows": {
         "colour": "green",
@@ -2150,6 +2276,15 @@
         "str": "no",
         "support": "no"
     },
+    "Shockwave": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
     "Shockwave Totem": {
         "colour": "red",
         "dex": "no",
@@ -2290,6 +2425,15 @@
         "dex": "no",
         "int": "yes",
         "lvl": "12",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
+    "Steelskin": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "4",
         "main": "yes",
         "str": "yes",
         "support": "no"
