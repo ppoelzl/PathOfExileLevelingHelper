@@ -48,6 +48,7 @@ def evaluate_skill_gems(gem_list, class_, missing, quest_data, skill_data):
             gem_name = base_gem_name  # Rename to allow the base gem to be added as well
 
         # TODO: Why are the names of source skills empty?
+        # TODO: Skills that are granted by items get support gems added to them, effectively duplicating them.
         try:
             for quest in quest_data:
                 if gem_name in quest_data[quest][class_]:
@@ -59,9 +60,9 @@ def evaluate_skill_gems(gem_list, class_, missing, quest_data, skill_data):
                             skill_data[gem_name]["colour"],
                         )
                     )
-                    # TODO: Regression: Duplicate skill gem entries
-                    continue
-            missing.append(gem_name)
+                    break
+            else:
+                missing.append(gem_name)
         except KeyError:
             logger.debug(f"{gem_name} is missing from skill data.")
 
