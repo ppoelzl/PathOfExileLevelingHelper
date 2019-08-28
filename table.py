@@ -6,6 +6,9 @@ from flask_table import Table, Col
 
 
 class ItemTable(Table):
+    def sort_url(self, col_id, reverse=False):
+        pass
+
     gem_name = Col("Gem")
     quest_name = Col("Quest")
     gem_level = Col("Level")
