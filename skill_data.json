@@ -53,6 +53,15 @@
         "str": "yes",
         "support": "yes"
     },
+    "Advanced Traps": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Ancestral Protector": {
         "colour": "red",
         "dex": "no",
@@ -485,15 +494,6 @@
         "str": "no",
         "support": "yes"
     },
-    "Chance to Ignite": {
-        "colour": "blue",
-        "dex": "no",
-        "int": "yes",
-        "lvl": "8",
-        "main": "no",
-        "str": "no",
-        "support": "yes"
-    },
     "Charged Dash": {
         "colour": "green",
         "dex": "yes",
@@ -573,6 +573,15 @@
         "lvl": "18",
         "main": "no",
         "str": "yes",
+        "support": "yes"
+    },
+    "Combustion": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
         "support": "yes"
     },
     "Concentrated Effect": {
@@ -1079,15 +1088,6 @@
         "str": "no",
         "support": "no"
     },
-    "Flame Totem": {
-        "colour": "red",
-        "dex": "no",
-        "int": "yes",
-        "lvl": "4",
-        "main": "yes",
-        "str": "yes",
-        "support": "no"
-    },
     "Flameblast": {
         "colour": "blue",
         "dex": "no",
@@ -1358,6 +1358,15 @@
         "str": "no",
         "support": "no"
     },
+    "Holy Flame Totem": {
+        "colour": "red",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "yes",
+        "str": "yes",
+        "support": "no"
+    },
     "Hypothermia": {
         "colour": "green",
         "dex": "yes",
@@ -1519,6 +1528,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Infused Channeling": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "4",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
     },
     "Innervate": {
         "colour": "blue",
@@ -1915,15 +1933,6 @@
         "main": "yes",
         "str": "no",
         "support": "no"
-    },
-    "Physical Projectile Attack Damage": {
-        "colour": "green",
-        "dex": "yes",
-        "int": "no",
-        "lvl": "18",
-        "main": "no",
-        "str": "no",
-        "support": "yes"
     },
     "Physical to Lightning": {
         "colour": "blue",
@@ -2519,7 +2528,7 @@
         "str": "no",
         "support": "no"
     },
-    "Summon Phantasm on Kill": {
+    "Summon Phantasm": {
         "colour": "blue",
         "dex": "no",
         "int": "yes",
@@ -2636,15 +2645,6 @@
         "str": "no",
         "support": "yes"
     },
-    "Trap Cooldown": {
-        "colour": "green",
-        "dex": "yes",
-        "int": "no",
-        "lvl": "31",
-        "main": "no",
-        "str": "no",
-        "support": "yes"
-    },
     "Trap and Mine Damage": {
         "colour": "green",
         "dex": "yes",
@@ -2680,6 +2680,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Vicious Projectiles": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
     },
     "Vigilant Strike": {
         "colour": "red",
