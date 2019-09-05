@@ -1532,7 +1532,7 @@
     "Inspiration": {
         "colour": "red",
         "dex": "no",
-        "int": "no",
+        "int": "yes",
         "lvl": "31",
         "main": "no",
         "str": "yes",
@@ -1794,7 +1794,7 @@
         "colour": "blue",
         "dex": "yes",
         "int": "yes",
-        "lvl": "8",
+        "lvl": "38",
         "main": "no",
         "str": "no",
         "support": "yes"
@@ -2098,7 +2098,7 @@
     },
     "Pyroclast Mine": {
         "colour": "blue",
-        "dex": "no",
+        "dex": "yes",
         "int": "yes",
         "lvl": "28",
         "main": "yes",
