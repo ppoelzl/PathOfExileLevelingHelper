@@ -242,6 +242,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Blastchain Mine": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Blast Rain": {
         "colour": "green",
         "dex": "yes",
@@ -836,6 +845,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Elemental Army": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
+    },
     "Elemental Damage with Attacks": {
         "colour": "red",
         "dex": "no",
@@ -1007,15 +1025,6 @@
         "str": "no",
         "support": "yes"
     },
-    "Fire Nova Mine": {
-        "colour": "blue",
-        "dex": "no",
-        "int": "yes",
-        "lvl": "12",
-        "main": "yes",
-        "str": "no",
-        "support": "no"
-    },
     "Fire Penetration": {
         "colour": "red",
         "dex": "no",
@@ -1150,15 +1159,6 @@
         "main": "no",
         "str": "yes",
         "support": "yes"
-    },
-    "Freeze Mine": {
-        "colour": "green",
-        "dex": "yes",
-        "int": "yes",
-        "lvl": "10",
-        "main": "yes",
-        "str": "no",
-        "support": "no"
     },
     "Freezing Pulse": {
         "colour": "blue",
@@ -1421,6 +1421,15 @@
         "str": "no",
         "support": "no"
     },
+    "Icicle Mine": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Ignite Proliferation": {
         "colour": "blue",
         "dex": "no",
@@ -1518,6 +1527,15 @@
         "lvl": "31",
         "main": "no",
         "str": "no",
+        "support": "yes"
+    },
+    "Inspiration": {
+        "colour": "red",
+        "dex": "no",
+        "int": "no",
+        "lvl": "31",
+        "main": "no",
+        "str": "yes",
         "support": "yes"
     },
     "Intensify": {
@@ -1808,15 +1826,6 @@
         "str": "no",
         "support": "yes"
     },
-    "Minion and Totem Elemental Resistance": {
-        "colour": "blue",
-        "dex": "no",
-        "int": "yes",
-        "lvl": "31",
-        "main": "no",
-        "str": "yes",
-        "support": "yes"
-    },
     "Mirror Arrow": {
         "colour": "green",
         "dex": "yes",
@@ -2087,6 +2096,15 @@
         "str": "no",
         "support": "no"
     },
+    "Pyroclast Mine": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Rage": {
         "colour": "red",
         "dex": "no",
@@ -2159,15 +2177,6 @@
         "str": "yes",
         "support": "no"
     },
-    "Reduced Mana": {
-        "colour": "red",
-        "dex": "no",
-        "int": "no",
-        "lvl": "31",
-        "main": "no",
-        "str": "yes",
-        "support": "yes"
-    },
     "Rejuvenation Totem": {
         "colour": "red",
         "dex": "no",
@@ -2176,15 +2185,6 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
-    },
-    "Remote Mine": {
-        "colour": "blue",
-        "dex": "yes",
-        "int": "yes",
-        "lvl": "8",
-        "main": "no",
-        "str": "no",
-        "support": "yes"
     },
     "Righteous Fire": {
         "colour": "blue",
