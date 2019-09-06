@@ -12,12 +12,14 @@
             "Magma Orb",
 			"Purifying Flame",
             "Raise Zombie",
-            "Spark"
+            "Spark",
+            "Stormblast Mine"
         ],
         "Shadow": [
             "Blight",
             "Burning Arrow",
             "Caustic Arrow",
+            "Cobra Lash",
             "Double Strike",
             "Dual Strike",
             "Ethereal Knives",
@@ -33,12 +35,14 @@
             "Spark",
             "Spectral Throw",
             "Split Arrow",
+            "Stormblast Mine",
             "Viper Strike"
         ],
         "Ranger": [
             "Burning Arrow",
             "Caustic Arrow",
             "Cleave",
+            "Cobra Lash",
             "Double Strike",
             "Dual Strike",
             "Explosive Trap",
@@ -101,13 +105,15 @@
             "Raise Zombie",
             "Smite",
             "Spark",
-            "Spectral Throw"
+            "Spectral Throw",
+            "Stormblast Mine"
         ],
         "Scion": [
             "Blight",
             "Burning Arrow",
             "Caustic Arrow",
             "Cleave",
+            "Cobra Lash",
             "Double Strike",
             "Dual Strike",
             "Explosive Trap",
@@ -128,6 +134,7 @@
             "Spark",
             "Spectral Throw",
             "Split Arrow",
+            "Stormblast Mine",
             "Viper Strike"
         ]
     },
@@ -137,6 +144,7 @@
             "Spell Cascade",
             "Storm Barrier",
             "Summon Phantasm on Kill",
+            "Swift Assembly",
             "Volley"
         ],
         "Shadow": [
@@ -148,6 +156,7 @@
             "Spell Cascade",
             "Storm Barrier",
             "Summon Phantasm on Kill",
+            "Swift Assembly",
             "Volley"
         ],
         "Ranger": [
@@ -156,6 +165,7 @@
             "Lesser Poison",
             "Mirage Archer",
             "Onslaught",
+            "Swift Assembly",
             "Volley"
         ],
         "Duelist": [
@@ -164,6 +174,7 @@
             "Onslaught",
             "Pierce",
             "Ruthless",
+            "Swift Assembly",
             "Volley"
         ],
         "Marauder": [
@@ -194,6 +205,7 @@
             "Spell Cascade",
             "Storm Barrier",
             "Summon Phantasm on Kill",
+            "Swift Assembly",
             "Volley"
         ]
     },
@@ -330,6 +342,7 @@
             "Combustion",
             "Flame Dash",
             "Increased Critical Strikes",
+            "Infernal Legion",
             "Lesser Multiple Projectiles",
             "Lightning Warp",
             "Melee Splash",
@@ -346,7 +359,8 @@
             "Unbound Ailments",
             "Unearth",
             "Void Manipulation",
-            "Wither"
+            "Wither",
+            "Withering Step"
         ],
         "Shadow": [
             "Added Cold Damage",
@@ -378,7 +392,8 @@
             "Unearth",
             "Void Manipulation",
             "Whirling Blades",
-            "Wither"
+            "Wither",
+            "Withering Step"
         ],
         "Ranger": [
             "Added Cold Damage",
@@ -404,7 +419,8 @@
             "Trap",
             "Unearth",
             "Void Manipulation",
-            "Whirling Blades"
+            "Whirling Blades",
+            "Withering Step"
         ],
         "Duelist": [
             "Added Fire Damage",
@@ -456,6 +472,7 @@
             "Clarity",
             "Combustion",
             "Flame Dash",
+            "Infernal Legion",
             "Knockback",
             "Leap Slam",
             "Life Gain on Hit",
@@ -506,7 +523,8 @@
             "Unbound Ailments",
             "Unearth",
             "Void Manipulation",
-            "Wither"
+            "Wither",
+            "Withering Step"
         ]
     },
     "The Siren's Cadence": {
@@ -522,6 +540,7 @@
             "Flesh Offering",
             "Ice Nova",
             "Ice Spear",
+            "Icicle Mine",
             "Incinerate",
             "Lightning Trap",
             "Power Siphon",
@@ -543,6 +562,7 @@
             "Flame Surge",
             "Ice Nova",
             "Ice Spear",
+            "Icicle Mine",
             "Incinerate",
             "Lacerate",
             "Lightning Arrow",
@@ -555,6 +575,7 @@
             "Spectral Shield Throw",
             "Storm Call",
             "Toxic Rain",
+            "Venom Gyre",
             "Volatile Dead"
         ],
         "Ranger": [
@@ -573,6 +594,7 @@
             "Spectral Shield Throw",
             "Static Strike",
             "Toxic Rain",
+            "Venom Gyre",
             "Volatile Dead"
         ],
         "Duelist": [
@@ -614,6 +636,7 @@
             "Flesh Offering",
             "Ice Nova",
             "Ice Spear",
+            "Icicle Mine",
             "Incinerate",
             "Infernal Blow",
             "Lacerate",
@@ -642,6 +665,7 @@
             "Flesh Offering",
             "Ice Nova",
             "Ice Spear",
+            "Icicle Mine",
             "Incinerate",
             "Infernal Blow",
             "Lacerate",
@@ -658,20 +682,24 @@
             "Storm Call",
             "Sunder",
             "Toxic Rain",
+            "Venom Gyre",
             "Volatile Dead"
         ]
     },
     "Intruders in Black": {
         "Witch":[
-
+            "Summon Skitterbots"
         ],
         "Shadow": [
-
+            "Blood Rage",
+            "Summon Skitterbots"
         ],
         "Ranger": [
-
+            "Blood Rage",
+            "Summon Skitterbots"
         ],
         "Duelist": [
+            "Blood Rage",
             "Flesh and Stone"
         ],
         "Marauder": [
@@ -681,7 +709,8 @@
 
         ],
         "Scion": [
-            "Flesh and Stone"
+            "Flesh and Stone",
+            "Summon Skitterbots"
         ]
     },
     "Sharp and Cruel": {
@@ -691,6 +720,7 @@
             "Controlled Destruction",
             "Culling Strike",
             "Deadly Ailments",
+            "Death Mark",
             "Elemental Focus",
             "Faster Casting",
             "Increased Critical Damage",
@@ -714,6 +744,7 @@
             "Faster Casting",
             "Increased Critical Damage",
             "Melee Physical Damage",
+            "Nightblade",
             "Physical to Lightning",
             "Point Blank",
             "Power Charge On Critical",
@@ -730,6 +761,7 @@
             "Increased Critical Damage",
             "Iron Grip",
             "Melee Physical Damage",
+            "Nightblade",
             "Physical to Lightning",
             "Point Blank",
             "Power Charge On Critical",
@@ -779,6 +811,7 @@
             "Culling Strike",
             "Damage on Full Life",
             "Deadly Ailments",
+            "Death Mark",
             "Elemental Damage with Attacks",
             "Elemental Focus",
             "Endurance Charge on Melee Stun",
@@ -803,6 +836,7 @@
             "Culling Strike",
             "Damage on Full Life",
             "Deadly Ailments",
+            "Death Mark",
             "Elemental Damage with Attacks",
             "Elemental Focus",
             "Endurance Charge on Melee Stun",
@@ -814,6 +848,7 @@
             "Melee Physical Damage",
             "Minion Life",
             "Minion Speed",
+            "Nightblade",
             "Physical to Lightning",
             "Point Blank",
             "Power Charge On Critical",
@@ -1060,6 +1095,7 @@
             "Haste",
             "Hatred",
 			"Malevolence",
+            "Plague Bearer",
             "Poacher's Mark",
             "Pride",
             "Projectile Weakness",
@@ -1078,6 +1114,7 @@
             "Grace",
             "Haste",
             "Hatred",
+            "Plague Bearer",
             "Pride",
             "Poacher's Mark",
             "Projectile Weakness",
@@ -1095,6 +1132,7 @@
             "Grace",
             "Haste",
             "Hatred",
+            "Plague Bearer",
             "Pride",
             "Poacher's Mark",
             "Projectile Weakness",
@@ -1163,6 +1201,7 @@
             "Haste",
             "Hatred",
 			"Malevolence",
+            "Plague Bearer",
             "Pride",
             "Punishment",
             "Purity of Elements",
@@ -1192,6 +1231,7 @@
             "Ice Trap",
             "Kinetic Blast",
             "Lightning Spire Trap",
+            "Pyroclast Mine",
             "Raise Spectre",
             "Seismic Trap",
             "Shock Nova",
@@ -1219,6 +1259,8 @@
             "Ice Trap",
             "Kinetic Blast",
             "Lightning Spire Trap",
+            "Pestilent Strike",
+            "Pyroclast Mine",
             "Scourge Arrow",
             "Seismic Trap",
             "Shock Nova",
@@ -1241,6 +1283,7 @@
             "Explosive Arrow",
             "Ice Crash",
             "Lancing Steel",
+            "Pestilent Strike",
             "Scourge Arrow",
             "Tornado Shot",
             "Wild Strike"
@@ -1259,6 +1302,7 @@
             "Explosive Arrow",
             "Ice Crash",
             "Lancing Steel",
+            "Pestilent Strike",
             "Scourge Arrow",
             "Tectonic Slam",
             "Tornado Shot"
@@ -1298,6 +1342,7 @@
             "Glacial Cascade",
             "Ice Crash",
             "Kinetic Blast",
+            "Pyroclast Mine",
             "Raise Spectre",
             "Shock Nova",
             "Shockwave Totem",
@@ -1332,6 +1377,8 @@
             "Kinetic Blast",
             "Lancing Steel",
             "Lightning Spire Trap",
+            "Pestilent Strike",
+            "Pyroclast Mine",
             "Raise Spectre",
             "Scourge Arrow",
             "Seismic Trap",
@@ -1349,14 +1396,17 @@
         "Witch": [
             "Advanced Traps",
             "Burning Damage",
+            "Charged Mines",
             "Charged Traps",
             "Cold Penetration",
             "Efficacy",
 			"Energy Leech",
             "Faster Projectiles",
+            "Feeding Frenzy",
             "Fire Penetration",
             "Fork",
             "Generosity",
+            "High-Impact Mine",
             "Hypothermia",
             "Ice Bite",
             "Innervate",
@@ -1364,11 +1414,13 @@
             "Item Rarity",
             "Lightning Penetration",
             "Mana Leech",
+            "Meat Shield",
             "Minion and Totem Elemental Resistance",
             "Swift Affliction"
         ],
         "Shadow": [
             "Advanced Traps",
+            "Charged Mines",
             "Charged Traps",
             "Cold Penetration",
             "Efficacy",
@@ -1377,6 +1429,7 @@
             "Fire Penetration",
             "Fork",
             "Fortify",
+            "High-Impact Mine",
             "Hypothermia",
             "Ice Bite",
             "Impale",
@@ -1463,6 +1516,7 @@
             "Cold Penetration",
             "Efficacy",
 			"Energy Leech",
+            "Feeding Frenzy",
             "Fire Penetration",
             "Fortify",
             "Generosity",
@@ -1475,6 +1529,7 @@
             "Less Duration",
             "Life Leech",
             "Lightning Penetration",
+            "Meat Shield",
             "Minion and Totem Elemental Resistance",
             "Pulverise",
             "Reduced Mana",
@@ -1483,15 +1538,18 @@
         "Scion": [
             "Advanced Traps",
             "Burning Damage",
+            "Charged Mines",
             "Charged Traps",
             "Cold Penetration",
             "Efficacy",
 			"Energy Leech",
             "Faster Projectiles",
+            "Feeding Frenzy",
             "Fire Penetration",
             "Fork",
             "Fortify",
             "Generosity",
+            "High-Impact Mine",
             "Hypothermia",
             "Ice Bite",
             "Impale",
@@ -1502,6 +1560,7 @@
             "Life Leech",
             "Lightning Penetration",
             "Mana Leech",
+            "Meat Shield",
             "Minion and Totem Elemental Resistance",
             "Poison",
             "Pulverise",
@@ -1513,6 +1572,7 @@
     "Breaking the Seal": {
         "Witch": [
             "Abyssal Cry",
+            "Summon Carrion Golem",
             "Summon Chaos Golem",
             "Summon Flame Golem",
             "Summon Ice Golem",
@@ -1522,6 +1582,7 @@
         "Shadow": [
             "Abyssal Cry",
             "Phase Run",
+            "Summon Carrion Golem",
             "Summon Chaos Golem",
             "Summon Flame Golem",
             "Summon Ice Golem",
@@ -1531,6 +1592,7 @@
         "Ranger": [
             "Abyssal Cry",
             "Phase Run",
+            "Summon Carrion Golem",
             "Summon Chaos Golem",
             "Summon Flame Golem",
             "Summon Ice Golem",
@@ -1561,6 +1623,7 @@
         "Templar": [
             "Abyssal Cry",
             "Immortal Call",
+            "Summon Carrion Golem",
             "Summon Chaos Golem",
             "Summon Flame Golem",
             "Summon Ice Golem",
@@ -1572,6 +1635,7 @@
             "Berserk",
             "Immortal Call",
             "Phase Run",
+            "Summon Carrion Golem",
             "Summon Chaos Golem",
             "Summon Flame Golem",
             "Summon Ice Golem",
@@ -1596,6 +1660,7 @@
             "Ignite Proliferation",
             "Increased Area of Effect",
             "Immolate",
+            "Minefield",
             "Multiple Totems",
             "Multistrike",
             "Spell Echo",
@@ -1615,6 +1680,7 @@
             "Decay",
             "Greater Multiple Projectiles",
             "Increased Area of Effect",
+            "Minefield",
             "Multiple Totems",
             "Multistrike",
             "Spell Echo",
@@ -1710,6 +1776,7 @@
             "Ignite Proliferation",
             "Immolate",
             "Increased Area of Effect",
+            "Minefield",
             "Multiple Totems",
             "Multistrike",
             "Spell Echo",
