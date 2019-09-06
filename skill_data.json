@@ -503,6 +503,15 @@
         "str": "no",
         "support": "no"
     },
+    "Charged Mines": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Charged Traps": {
         "colour": "green",
         "dex": "yes",
@@ -547,6 +556,15 @@
         "main": "no",
         "str": "no",
         "support": "yes"
+    },
+    "Cobra Lash": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
     },
     "Cold Penetration": {
         "colour": "green",
@@ -704,6 +722,15 @@
     "Deadly Ailments": {
         "colour": "green",
         "dex": "yes",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Deathmark": {
+        "colour": "blue",
+        "dex": "no",
         "int": "yes",
         "lvl": "18",
         "main": "no",
@@ -1034,6 +1061,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Feeding Frenzy": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Fire Penetration": {
         "colour": "red",
         "dex": "no",
@@ -1358,6 +1394,15 @@
         "str": "no",
         "support": "no"
     },
+    "High-Impact Mine": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Holy Flame Totem": {
         "colour": "red",
         "dex": "no",
@@ -1528,6 +1573,15 @@
         "main": "yes",
         "str": "yes",
         "support": "no"
+    },
+    "Infernal Legion": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "8",
+        "main": "no",
+        "str": "yes",
+        "support": "yes"
     },
     "Infused Channeling": {
         "colour": "blue",
@@ -1790,6 +1844,15 @@
         "str": "no",
         "support": "yes"
     },
+    "Meat Shield": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Melee Physical Damage": {
         "colour": "red",
         "dex": "no",
@@ -1898,6 +1961,15 @@
         "str": "yes",
         "support": "yes"
     },
+    "Nightblade": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "18",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
     "Onslaught": {
         "colour": "green",
         "dex": "yes",
@@ -1923,6 +1995,15 @@
         "lvl": "1",
         "main": "yes",
         "str": "yes",
+        "support": "no"
+    },
+    "Pestilent Strike": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "28",
+        "main": "yes",
+        "str": "no",
         "support": "no"
     },
     "Phase Run": {
@@ -1951,6 +2032,15 @@
         "main": "no",
         "str": "no",
         "support": "yes"
+    },
+    "Plague Bearer": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "no",
+        "lvl": "24",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
     },
     "Poacher's Mark": {
         "colour": "green",
@@ -2447,6 +2537,15 @@
         "str": "yes",
         "support": "no"
     },
+    "Stormblast Mine": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "1",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Storm Brand": {
         "colour": "blue",
         "dex": "no",
@@ -2482,6 +2581,15 @@
         "main": "no",
         "str": "yes",
         "support": "yes"
+    },
+    "Summon Carrion Golem": {
+        "colour": "blue",
+        "dex": "no",
+        "int": "yes",
+        "lvl": "34",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
     },
     "Summon Chaos Golem": {
         "colour": "blue",
@@ -2555,6 +2663,15 @@
         "str": "no",
         "support": "no"
     },
+    "Summon Skitterbots": {
+        "colour": "blue",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "16",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
     "Summon Stone Golem": {
         "colour": "red",
         "dex": "yes",
@@ -2587,6 +2704,15 @@
         "dex": "yes",
         "int": "no",
         "lvl": "31",
+        "main": "no",
+        "str": "no",
+        "support": "yes"
+    },
+    "Swift Assembly": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "4",
         "main": "no",
         "str": "no",
         "support": "yes"
@@ -2679,6 +2805,15 @@
         "lvl": "24",
         "main": "yes",
         "str": "yes",
+        "support": "no"
+    },
+    "Venom Gyre": {
+        "colour": "green",
+        "dex": "yes",
+        "int": "yes",
+        "lvl": "12",
+        "main": "yes",
+        "str": "no",
         "support": "no"
     },
     "Vicious Projectiles": {
@@ -2810,6 +2945,15 @@
     "Wither": {
         "colour": "blue",
         "dex": "no",
+        "int": "yes",
+        "lvl": "10",
+        "main": "yes",
+        "str": "no",
+        "support": "no"
+    },
+    "Withering Step": {
+        "colour": "green",
+        "dex": "yes",
         "int": "yes",
         "lvl": "10",
         "main": "yes",
