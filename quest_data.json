@@ -142,8 +142,8 @@
         "Witch": [
             "Elemental Proliferation",
             "Spell Cascade",
-            "Storm Barrier",
-            "Summon Phantasm on Kill",
+            "Infused Channeling",
+            "Summon Phantasm",
             "Swift Assembly",
             "Volley"
         ],
@@ -154,8 +154,8 @@
             "Onslaught",
             "Pierce",
             "Spell Cascade",
-            "Storm Barrier",
-            "Summon Phantasm on Kill",
+            "Infused Channeling",
+            "Summon Phantasm",
             "Swift Assembly",
             "Volley"
         ],
@@ -190,8 +190,8 @@
             "Onslaught",
             "Ruthless",
             "Spell Cascade",
-            "Storm Barrier",
-            "Summon Phantasm on Kill"
+            "Infused Channeling",
+            "Summon Phantasm"
         ],
         "Scion": [
             "Ancestral Call",
@@ -203,8 +203,8 @@
             "Pierce",
             "Ruthless",
             "Spell Cascade",
-            "Storm Barrier",
-            "Summon Phantasm on Kill",
+            "Infused Channeling",
+            "Summon Phantasm",
             "Swift Assembly",
             "Volley"
         ]
@@ -217,7 +217,7 @@
             "Dash",
             "Detonate Dead",
             "Devouring Totem",
-            "Flame Totem",
+            "Holy Flame Totem",
             "Frost Blink",
             "Frost Bomb",
             "Frost Wall",
@@ -281,7 +281,7 @@
             "Dash",
             "Decoy Totem",
             "Devouring Totem",
-            "Flame Totem",
+            "Holy Flame Totem",
             "Frost Blink",
             "Molten Shell",
             "Reckoning",
@@ -297,7 +297,7 @@
             "Dash",
             "Decoy Totem",
             "Devouring Totem",
-            "Flame Totem",
+            "Holy Flame Totem",
             "Frost Blink",
             "Frost Bomb",
             "Frost Wall",
