@@ -16,34 +16,28 @@ def evaluate_skill_gems(gem_list, class_, missing, quest_data, skill_data):
         # Vendor recipe skill gems
         if gem_name == "Block Chance Reduction":
             yield (
-                (
-                    gem_name,
-                    "Vendor Puncture + any dexterity based shield with 20% quality",
-                    int(skill_data[gem_name]["lvl"]),
-                    skill_data[gem_name]["colour"],
-                )
+                gem_name,
+                "Vendor Puncture + any dexterity based shield with 20% quality",
+                int(skill_data[gem_name]["lvl"]),
+                skill_data[gem_name]["colour"],
             )
             gem_name = "Puncture"  # Rename to allow the base gem to be added as well
         elif gem_name == "Mirror Arrow":
             yield (
-                (
-                    gem_name,
-                    "Vendor Blink Arrow + 1 Orb of Alteration",
-                    int(skill_data[gem_name]["lvl"]),
-                    skill_data[gem_name]["colour"],
-                )
+                gem_name,
+                "Vendor Blink Arrow + 1 Orb of Alteration",
+                int(skill_data[gem_name]["lvl"]),
+                skill_data[gem_name]["colour"],
             )
             gem_name = "Blink Arrow"  # Rename to allow the base gem to be added as well
         # Vaal skill gems
         elif gem_name.startswith("Vaal"):
             base_gem_name = find_corresponding_non_vaal_skill_gem_name(gem_name)
             yield (
-                (
-                    gem_name,
-                    "Drop-only",
-                    int(skill_data[base_gem_name]["lvl"]),
-                    skill_data[base_gem_name]["colour"],
-                )
+                gem_name,
+                "Drop-only",
+                int(skill_data[base_gem_name]["lvl"]),
+                skill_data[base_gem_name]["colour"],
             )
             gem_name = base_gem_name  # Rename to allow the base gem to be added as well
 
@@ -51,12 +45,10 @@ def evaluate_skill_gems(gem_list, class_, missing, quest_data, skill_data):
             for quest in quest_data:
                 if gem_name in quest_data[quest][class_]:
                     yield (
-                        (
-                            gem_name,
-                            quest,
-                            int(skill_data[gem_name]["lvl"]),
-                            skill_data[gem_name]["colour"],
-                        )
+                        gem_name,
+                        quest,
+                        int(skill_data[gem_name]["lvl"]),
+                        skill_data[gem_name]["colour"],
                     )
                     break
             else:
@@ -71,7 +63,6 @@ def find_corresponding_non_vaal_skill_gem_name(skill_gem_name):
         "Vaal Impurity of Ice": "Purity of Ice",
         "Vaal Impurity of Fire": "Purity of Fire",
         "Vaal Impurity of Lightning": "Purity of Lightning",
-        "Vaal Summon Skeletons": "Summon Skeletons",
     }
     return dct.get(skill_gem_name, skill_gem_name.partition("Vaal ")[2])
 
