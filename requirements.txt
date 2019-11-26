@@ -20,7 +20,7 @@ pobapi==0.2.4
 pytz==2019.2
 requests==2.22.0
 toml==0.10.0
-unstdlib==1.7.1
+unstdlib==1.7.2
 urllib3==1.25.3
 Werkzeug==0.15.5
 WTForms==2.2.1
