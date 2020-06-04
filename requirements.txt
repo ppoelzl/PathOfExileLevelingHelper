@@ -1,6 +1,6 @@
 appdirs==1.4.3
 attrs==19.3.0
-Babel==2.7.0
+Babel==2.8.0
 black==19.10b0
 certifi==2019.6.16
 chardet==3.0.4
