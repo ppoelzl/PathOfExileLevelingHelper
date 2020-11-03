@@ -17,7 +17,7 @@ Jinja2==2.11.2
 lxml==4.6.1
 MarkupSafe==1.1.1
 pobapi==0.6.0
-pytz==2020.1
+pytz==2020.4
 requests==2.24.0
 toml==0.10.1
 unstdlib==1.7.2
