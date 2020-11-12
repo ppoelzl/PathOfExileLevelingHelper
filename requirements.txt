@@ -18,7 +18,7 @@ lxml==4.6.1
 MarkupSafe==1.1.1
 pobapi==0.6.0
 pytz==2020.4
-requests==2.24.0
+requests==2.25.0
 toml==0.10.2
 unstdlib==1.7.2
 urllib3==1.25.11
