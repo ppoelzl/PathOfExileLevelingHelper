@@ -21,6 +21,6 @@ pytz==2021.1
 requests==2.25.1
 toml==0.10.2
 unstdlib==1.7.2
-urllib3==1.26.4
+urllib3==1.26.5
 Werkzeug==2.0.1
 WTForms==2.3.3
